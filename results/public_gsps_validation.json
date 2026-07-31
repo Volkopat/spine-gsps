@@ -1,0 +1,2455 @@
+{
+  "validator": "<path>\\tools\\dicom3tools\\dciodvfy.exe",
+  "n_files": 9,
+  "records": [
+    {
+      "file": "<path>\\runs\\public_gsps_objects_v2\\sub-verse502_dir-iso__asis_meddreamid.dcm",
+      "iod": "GrayscaleSoftcopyPresentationState",
+      "missing": [
+        {
+          "type": "2",
+          "element": "SeriesNumber",
+          "module": "GeneralSeries"
+        },
+        {
+          "type": "2C",
+          "element": "Laterality",
+          "module": "GeneralSeries"
+        },
+        {
+          "type": "1",
+          "element": "InstanceNumber",
+          "module": "ContentIdentificationMacro"
+        }
+      ],
+      "not_in_iod": [
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        }
+      ],
+      "other_errors": [],
+      "other_warnings": [
+        "Missing attribute or value that would be needed to build DICOMDIR - Series Number",
+        "Dicom dataset contains attributes not present in standard DICOM IOD - this is a Standard Extended SOP Class"
+      ],
+      "exit_code": 1
+    },
+    {
+      "file": "<path>\\runs\\public_gsps_objects_v2\\sub-verse502_dir-iso__asis_trueid.dcm",
+      "iod": "GrayscaleSoftcopyPresentationState",
+      "missing": [
+        {
+          "type": "2",
+          "element": "SeriesNumber",
+          "module": "GeneralSeries"
+        },
+        {
+          "type": "2C",
+          "element": "Laterality",
+          "module": "GeneralSeries"
+        },
+        {
+          "type": "1",
+          "element": "InstanceNumber",
+          "module": "ContentIdentificationMacro"
+        }
+      ],
+      "not_in_iod": [
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        }
+      ],
+      "other_errors": [],
+      "other_warnings": [
+        "Missing attribute or value that would be needed to build DICOMDIR - Series Number",
+        "Dicom dataset contains attributes not present in standard DICOM IOD - this is a Standard Extended SOP Class"
+      ],
+      "exit_code": 1
+    },
+    {
+      "file": "<path>\\runs\\public_gsps_objects_v2\\sub-verse502_dir-iso__colour_all.dcm",
+      "iod": "GrayscaleSoftcopyPresentationState",
+      "missing": [
+        {
+          "type": "2C",
+          "element": "Laterality",
+          "module": "GeneralSeries"
+        }
+      ],
+      "not_in_iod": [
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        }
+      ],
+      "other_errors": [],
+      "other_warnings": [
+        "Dicom dataset contains attributes not present in standard DICOM IOD - this is a Standard Extended SOP Class"
+      ],
+      "exit_code": 1
+    },
+    {
+      "file": "<path>\\runs\\public_gsps_objects_v2\\sub-verse502_dir-iso__colour_layer_iod.dcm",
+      "iod": "GrayscaleSoftcopyPresentationState",
+      "missing": [
+        {
+          "type": "2C",
+          "element": "Laterality",
+          "module": "GeneralSeries"
+        }
+      ],
+      "not_in_iod": [],
+      "other_errors": [],
+      "other_warnings": [],
+      "exit_code": 1
+    },
+    {
+      "file": "<path>\\runs\\public_gsps_objects_v2\\sub-verse502_dir-iso__colour_line_iod.dcm",
+      "iod": "GrayscaleSoftcopyPresentationState",
+      "missing": [
+        {
+          "type": "2C",
+          "element": "Laterality",
+          "module": "GeneralSeries"
+        }
+      ],
+      "not_in_iod": [],
+      "other_errors": [],
+      "other_warnings": [],
+      "exit_code": 1
+    },
+    {
+      "file": "<path>\\runs\\public_gsps_objects_v2\\sub-verse502_dir-iso__colour_none.dcm",
+      "iod": "GrayscaleSoftcopyPresentationState",
+      "missing": [
+        {
+          "type": "2C",
+          "element": "Laterality",
+          "module": "GeneralSeries"
+        }
+      ],
+      "not_in_iod": [],
+      "other_errors": [],
+      "other_warnings": [],
+      "exit_code": 1
+    },
+    {
+      "file": "<path>\\runs\\public_gsps_objects_v2\\sub-verse502_dir-iso__colour_text_outofiod.dcm",
+      "iod": "GrayscaleSoftcopyPresentationState",
+      "missing": [
+        {
+          "type": "2C",
+          "element": "Laterality",
+          "module": "GeneralSeries"
+        }
+      ],
+      "not_in_iod": [
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        },
+        {
+          "tag": "0x0070,0x0229",
+          "vr": "LO",
+          "name": "CSS Font Name"
+        },
+        {
+          "tag": "0x0070,0x0241",
+          "vr": "US",
+          "name": "Text Color CIELab Value"
+        },
+        {
+          "tag": "0x0070,0x0242",
+          "vr": "CS",
+          "name": "Horizontal Alignment"
+        },
+        {
+          "tag": "0x0070,0x0243",
+          "vr": "CS",
+          "name": "Vertical Alignment"
+        },
+        {
+          "tag": "0x0070,0x0244",
+          "vr": "CS",
+          "name": "Shadow Style"
+        },
+        {
+          "tag": "0x0070,0x0231",
+          "vr": "SQ",
+          "name": "Text Style Sequence"
+        }
+      ],
+      "other_errors": [],
+      "other_warnings": [
+        "Dicom dataset contains attributes not present in standard DICOM IOD - this is a Standard Extended SOP Class"
+      ],
+      "exit_code": 1
+    },
+    {
+      "file": "<path>\\runs\\public_gsps_objects_v2\\sub-verse502_dir-iso__conformant_meddreamid.dcm",
+      "iod": "GrayscaleSoftcopyPresentationState",
+      "missing": [
+        {
+          "type": "2C",
+          "element": "Laterality",
+          "module": "GeneralSeries"
+        }
+      ],
+      "not_in_iod": [],
+      "other_errors": [],
+      "other_warnings": [],
+      "exit_code": 1
+    },
+    {
+      "file": "<path>\\runs\\public_gsps_objects_v2\\sub-verse502_dir-iso__conformant_trueid.dcm",
+      "iod": "GrayscaleSoftcopyPresentationState",
+      "missing": [
+        {
+          "type": "2C",
+          "element": "Laterality",
+          "module": "GeneralSeries"
+        }
+      ],
+      "not_in_iod": [],
+      "other_errors": [],
+      "other_warnings": [],
+      "exit_code": 1
+    }
+  ]
+}

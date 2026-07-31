@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spinelab"
+version = "0.1.0"
+description = "Evaluation harness for vertebral labeling with DICOM GSPS output"
+requires-python = ">=3.10"
+
+# Deliberately loose here. The reproducible pins live in env/requirements.lock,
+# generated from the actual working environment rather than written by hand.
+dependencies = [
+  "numpy",
+  "scipy",
+  "nibabel",
+  "pydicom",
+  "SimpleITK",
+  "pyyaml",
+  "pandas",
+  "matplotlib",
+  "tqdm",
+]
+
+[project.optional-dependencies]
+# Inference extras are installed separately because torch must come from the
+# cu128 wheel index for sm_120 support. See CLAUDE.md.
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

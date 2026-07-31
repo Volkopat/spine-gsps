@@ -1,0 +1,50 @@
+# nginx site config for the standalone OHIF container in the viewer bench.
+#
+# This replaces the template shipped inside ohif/app. The container entrypoint
+# runs it through envsubst for ${PORT} and ${PUBLIC_URL} only, so ordinary nginx
+# runtime variables such as $uri and $host survive untouched.
+#
+# The only addition over upstream is the /dicom-web/ proxy. Serving DICOMweb from
+# the same origin as the viewer means the browser makes no cross origin request,
+# so no CORS headers are needed on Orthanc and no preflight can silently fail.
+# That matters for this bench: a CORS failure and a viewer refusing an object
+# look identical from the outside, and we must not confuse the two.
+
+server {
+  gzip_static  always;
+  gzip_proxied expired no-cache no-store private auth;
+  gunzip       on;
+  listen ${PORT} default_server;
+  listen [::]:${PORT} default_server;
+
+  # Docker embedded DNS. Resolving the upstream at request time rather than at
+  # config load time means nginx starts even if Orthanc is not up yet.
+  resolver 127.0.0.11 valid=10s ipv6=off;
+
+  location /dicom-web/ {
+    set $orthanc http://orthanc:8042;
+    # $request_uri, not a literal path. When proxy_pass uses a variable nginx
+    # passes any URI written in the directive verbatim instead of substituting
+    # the matched location, so a literal "/dicom-web/" here would drop
+    # everything after the prefix and every query would 404.
+    proxy_pass $orthanc$request_uri;
+    proxy_http_version 1.1;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_read_timeout 600s;
+    client_max_body_size 0;
+  }
+
+  location / {
+    root   /usr/share/nginx/html;
+    index  index.html index.htm;
+    try_files $uri $uri/ ${PUBLIC_URL}index.html;
+    add_header Cross-Origin-Resource-Policy same-origin;
+  }
+
+  error_page   500 502 503 504  /50x.html;
+  location = /50x.html {
+    root   /usr/share/nginx/html;
+  }
+}

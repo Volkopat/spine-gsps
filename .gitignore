@@ -1,0 +1,59 @@
+# ---------------------------------------------------------------------------
+# This repository is intended to become the PUBLIC reproduction harness.
+# It must never contain clinical data, model weights, or recovered vendor code.
+# Those live outside the repository entirely, see src/spinelab/paths.py:
+#   <path>\models          trained checkpoints
+#   <path>\datasets        public datasets
+#   <path>\runs            batch outputs
+#   <path>  code recovered from the container, NOT redistributable
+#
+# The private baseline repository is <path> and stays private.
+# ---------------------------------------------------------------------------
+
+# Imaging data of any kind
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.raw
+*.npz
+*.npy
+
+# Weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pkl
+
+# Local stores, in case anyone relocates them inside the tree
+models/
+datasets/
+runs/
+vendor/
+_spine_extract/
+
+# Large intermediate outputs. results/ IS committed, but only metrics and figures.
+results/**/*.zip
+results/**/*.tar
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp

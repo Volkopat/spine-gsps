@@ -1,0 +1,66 @@
+{
+  "validator": "<path>\\tools\\dicom3tools\\dciodvfy.exe",
+  "n_files": 6,
+  "records": [
+    {
+      "file": "<path>\\runs\\seg_demo\\canonical\\sub-gl003_dir-ax_SEG.dcm",
+      "iod": null,
+      "missing": [],
+      "not_in_iod": [],
+      "other_errors": [],
+      "other_warnings": [],
+      "exit_code": 0
+    },
+    {
+      "file": "<path>\\runs\\seg_demo\\canonical\\sub-verse505_SEG.dcm",
+      "iod": null,
+      "missing": [],
+      "not_in_iod": [],
+      "other_errors": [],
+      "other_warnings": [
+        "Unrecognized defined term <99SPINELAB> for value 1 of attribute <Coding Scheme Designator>",
+        "Unrecognized defined term <99SPINELAB> for value 1 of attribute <Coding Scheme Designator>"
+      ],
+      "exit_code": 0
+    },
+    {
+      "file": "<path>\\runs\\seg_demo\\canonical\\sub-verse525_dir-sag_SEG.dcm",
+      "iod": null,
+      "missing": [],
+      "not_in_iod": [],
+      "other_errors": [],
+      "other_warnings": [
+        "Unrecognized defined term <99SPINELAB> for value 1 of attribute <Coding Scheme Designator>",
+        "Unrecognized defined term <99SPINELAB> for value 1 of attribute <Coding Scheme Designator>"
+      ],
+      "exit_code": 0
+    },
+    {
+      "file": "<path>\\runs\\seg_demo\\canonical\\variants\\seg_colour_flag.dcm",
+      "iod": null,
+      "missing": [],
+      "not_in_iod": [],
+      "other_errors": [],
+      "other_warnings": [],
+      "exit_code": 0
+    },
+    {
+      "file": "<path>\\runs\\seg_demo\\canonical\\variants\\seg_colour_none.dcm",
+      "iod": null,
+      "missing": [],
+      "not_in_iod": [],
+      "other_errors": [],
+      "other_warnings": [],
+      "exit_code": 0
+    },
+    {
+      "file": "<path>\\runs\\seg_demo\\canonical\\variants\\seg_colour_uniform.dcm",
+      "iod": null,
+      "missing": [],
+      "not_in_iod": [],
+      "other_errors": [],
+      "other_warnings": [],
+      "exit_code": 0
+    }
+  ]
+}

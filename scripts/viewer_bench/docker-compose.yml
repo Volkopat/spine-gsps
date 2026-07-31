@@ -1,0 +1,145 @@
+# spine-gsps viewer bench.
+#
+#   cd scripts/viewer_bench
+#   docker compose up -d
+#
+# Two containers, five viewers:
+#
+#   http://localhost:8142/ui/app/                Orthanc Explorer 2, the archive UI
+#   http://localhost:8142/stone-webviewer/       Stone Web Viewer
+#   http://localhost:8142/ohif/                  OHIF, Orthanc embedded plugin build
+#   http://localhost:8142/volview/index.html     VolView, note the explicit index.html
+#   http://localhost:8142/web-viewer/app/viewer.html   Orthanc Web Viewer, classic
+#   http://localhost:3110/                       OHIF v3 standalone, upstream image
+#
+# One further viewer is defined behind the "licensed" profile and is NOT started
+# by plain `up`, see the meddream service at the bottom of this file.
+#
+# Every published port is deliberately non default. Orthanc normally serves HTTP
+# on 8042 and DICOM on 4242, OHIF normally on 3000. Shifted to 8142, 4342 and
+# 3110 so the bench cannot collide with anything already running on this machine.
+#
+# Images are pinned by digest, not by tag, because "latest" moves and a viewer
+# matrix is worthless if the reader cannot get the same viewer build. Digests
+# resolved and pulled 2026-07-30:
+#   orthancteam/orthanc:latest  Orthanc 1.12.11
+#   ohif/app:latest             OHIF v3, nginx 1.27.5 unprivileged base
+#
+# No clinical data is bind mounted into either container. Objects go in over the
+# Orthanc REST API from the host, see load_objects.py. The Orthanc index and
+# storage live in a named docker volume, so `docker compose down -v` wipes the
+# bench back to empty.
+
+name: spine-gsps-viewer-bench
+
+services:
+  orthanc:
+    image: orthancteam/orthanc@sha256:99082b87c96d56e57472d703ad799b779da7aa35aedac830d58cce646a43643f
+    container_name: gsps-bench-orthanc
+    restart: unless-stopped
+    ports:
+      - "8142:8042"   # HTTP, REST API plus all bundled web viewers
+      - "4342:4242"   # DICOM SCP, for C-STORE tests
+    environment:
+      ORTHANC__NAME: spine-gsps-viewer-bench
+      ORTHANC__DICOM_AET: SPINEBENCH
+      # No credentials. The bench is bound to this host only and holds no
+      # identifiable data beyond what the operator pushes into it.
+      ORTHANC__AUTHENTICATION_ENABLED: "false"
+      ORTHANC__REMOTE_ACCESS_ALLOWED: "true"
+      # Make studies settle fast so the viewers see them without a wait.
+      ORTHANC__STABLE_AGE: "5"
+      # Bundled viewer plugins. All ship inside this image, nothing is fetched.
+      DICOM_WEB_PLUGIN_ENABLED: "true"
+      ORTHANC__DICOM_WEB__ROOT: /dicom-web
+      STONE_WEB_VIEWER_PLUGIN_ENABLED: "true"
+      OHIF_PLUGIN_ENABLED: "true"
+      VOLVIEW_PLUGIN_ENABLED: "true"
+      ORTHANC_WEB_VIEWER_PLUGIN_ENABLED: "true"
+      ORTHANC_EXPLORER_2_ENABLED: "true"
+      VERBOSE_ENABLED: "true"
+    volumes:
+      - orthanc-db:/var/lib/orthanc/db
+    healthcheck:
+      test:
+        - CMD
+        - python3
+        - -c
+        - import urllib.request as u; u.urlopen('http://localhost:8042/system', timeout=3)
+      interval: 5s
+      timeout: 5s
+      retries: 24
+      start_period: 5s
+
+  ohif:
+    image: ohif/app@sha256:48a5537ec5f19436a0d29eaba30f6402b254740a65d37a5458f885e892b69fba
+    container_name: gsps-bench-ohif
+    restart: unless-stopped
+    depends_on:
+      orthanc:
+        condition: service_started
+    ports:
+      - "3110:8080"
+    environment:
+      PORT: "8080"
+      PUBLIC_URL: /
+    volumes:
+      - ./ohif:/bench:ro
+    # The upstream entrypoint is bypassed on purpose. It renders its own nginx
+    # template and then gzips app-config.js in place, which cannot work against a
+    # read only bind mount. Doing both steps here from /bench keeps the mount
+    # read only and keeps the two files reviewable in the repository.
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        set -e
+        cp /bench/app-config.js /usr/share/nginx/html/app-config.js
+        gzip -c /usr/share/nginx/html/app-config.js > /usr/share/nginx/html/app-config.js.gz
+        export PORT PUBLIC_URL
+        envsubst '$${PORT}:$${PUBLIC_URL}' < /bench/default.conf.template > /etc/nginx/conf.d/default.conf
+        exec nginx -g 'daemon off;'
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "-", "http://localhost:8080/"]
+      interval: 5s
+      timeout: 5s
+      retries: 24
+      start_period: 5s
+
+  # MedDream, Softneta's viewer. Directly relevant because the 38 shipped GSPS
+  # objects declare Manufacturer "Softneta" and ManufacturerModelName "MedDream",
+  # so this is the one viewer that can say whether that identity is even coherent.
+  #
+  # NOT part of the default bench. It is commercial software behind a licence
+  # filter and it is in a non default compose profile for that reason:
+  #
+  #     docker compose --profile licensed up -d meddream
+  #
+  # Measured 2026-07-30 with no licence file present: the container starts, Tomcat
+  # comes up, GET / returns 200 with the landing page, and every functional request
+  # is then refused by com.softneta.meddream.md.auth.filter.LicencingFilter with
+  # HTTP 500. A human must obtain a trial licence from Softneta and mount it at
+  # /opt/meddream/license before this leg of the matrix can be scored.
+  #
+  # Two settings had to be overridden to get it to boot at all. The shipped
+  # application.properties includes the auth-his profile, which then aborts startup
+  # with "Missing property 'authentication.his.valid-his-params'". Passing that
+  # property as an environment variable with dots does not bind. Dropping the
+  # profile does work. The PACS block needs no change: its defaults already point
+  # at host "orthanc" port 8042, which is exactly this bench's service name.
+  meddream:
+    image: meddream/orthanc-dicom-viewer:8.9.0
+    container_name: gsps-bench-meddream
+    profiles: ["licensed"]
+    depends_on:
+      orthanc:
+        condition: service_started
+    ports:
+      - "8180:8080"
+    environment:
+      SPRING_PROFILES_INCLUDE: auth-inmemory
+    # Uncomment once a licence file exists on the host.
+    # volumes:
+    #   - ./meddream-license:/opt/meddream/license:ro
+
+volumes:
+  orthanc-db:

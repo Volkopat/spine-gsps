@@ -1,0 +1,2415 @@
+{
+  "cohort": "<path>\\datasets\\verse_4skx2",
+  "n_cases": 65,
+  "n_with_T13": 0,
+  "n_with_L6": 13,
+  "n_without_landmark": 2,
+  "total_annotated_vertebrae": 788,
+  "level_prevalence": {
+    "C1": 29,
+    "C2": 29,
+    "C3": 29,
+    "C4": 30,
+    "C5": 30,
+    "C6": 31,
+    "C7": 34,
+    "T1": 42,
+    "T2": 46,
+    "T3": 44,
+    "T4": 35,
+    "T5": 27,
+    "T6": 23,
+    "T7": 22,
+    "T8": 22,
+    "T9": 26,
+    "T10": 31,
+    "T11": 35,
+    "T12": 34,
+    "L1": 36,
+    "L2": 36,
+    "L3": 35,
+    "L4": 35,
+    "L5": 34,
+    "L6": 13
+  },
+  "cases": [
+    {
+      "case": "sub-gl003_dir-ax",
+      "n_levels": 12,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        214
+      ],
+      "zooms": [
+        0.291,
+        0.291,
+        1.25
+      ],
+      "n_centroids": 12,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl016_dir-ax",
+      "n_levels": 11,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        180
+      ],
+      "zooms": [
+        0.352,
+        0.352,
+        1.25
+      ],
+      "n_centroids": 11,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl017",
+      "n_levels": 11,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        229
+      ],
+      "zooms": [
+        0.316,
+        0.316,
+        1.25
+      ],
+      "n_centroids": 11,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl045",
+      "n_levels": 11,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        221
+      ],
+      "zooms": [
+        0.293,
+        0.293,
+        1.25
+      ],
+      "n_centroids": 11,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl047_dir-ax",
+      "n_levels": 11,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        181
+      ],
+      "zooms": [
+        0.299,
+        0.299,
+        1.25
+      ],
+      "n_centroids": 11,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl059",
+      "n_levels": 10,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        204
+      ],
+      "zooms": [
+        0.273,
+        0.273,
+        1.25
+      ],
+      "n_centroids": 10,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl068",
+      "n_levels": 12,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        206
+      ],
+      "zooms": [
+        0.371,
+        0.371,
+        1.25
+      ],
+      "n_centroids": 12,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl090_dir-ax",
+      "n_levels": 10,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        171
+      ],
+      "zooms": [
+        0.273,
+        0.273,
+        1.25
+      ],
+      "n_centroids": 10,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl099",
+      "n_levels": 14,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        222
+      ],
+      "zooms": [
+        0.352,
+        0.352,
+        1.25
+      ],
+      "n_centroids": 14,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl108_dir-ax",
+      "n_levels": 10,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        175
+      ],
+      "zooms": [
+        0.332,
+        0.332,
+        1.25
+      ],
+      "n_centroids": 10,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl124_dir-ax",
+      "n_levels": 10,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        190
+      ],
+      "zooms": [
+        0.312,
+        0.312,
+        1.25
+      ],
+      "n_centroids": 10,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl144",
+      "n_levels": 11,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        202
+      ],
+      "zooms": [
+        0.273,
+        0.273,
+        1.25
+      ],
+      "n_centroids": 11,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl146_dir-ax",
+      "n_levels": 12,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        204
+      ],
+      "zooms": [
+        0.375,
+        0.375,
+        1.25
+      ],
+      "n_centroids": 12,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl153",
+      "n_levels": 10,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        201
+      ],
+      "zooms": [
+        0.322,
+        0.322,
+        1.25
+      ],
+      "n_centroids": 10,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl195_dir-ax",
+      "n_levels": 11,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        195
+      ],
+      "zooms": [
+        0.312,
+        0.312,
+        1.25
+      ],
+      "n_centroids": 11,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl216_dir-ax",
+      "n_levels": 9,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        162
+      ],
+      "zooms": [
+        0.314,
+        0.314,
+        1.25
+      ],
+      "n_centroids": 9,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl217_dir-ax",
+      "n_levels": 10,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        204
+      ],
+      "zooms": [
+        0.295,
+        0.295,
+        1.25
+      ],
+      "n_centroids": 10,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl240_dir-ax",
+      "n_levels": 10,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        174
+      ],
+      "zooms": [
+        0.312,
+        0.312,
+        1.25
+      ],
+      "n_centroids": 10,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl247_dir-ax",
+      "n_levels": 13,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        228
+      ],
+      "zooms": [
+        0.307,
+        0.307,
+        1.25
+      ],
+      "n_centroids": 13,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl279_dir-ax",
+      "n_levels": 17,
+      "levels": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": true,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        373
+      ],
+      "zooms": [
+        0.43,
+        0.43,
+        1.25
+      ],
+      "n_centroids": 17,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-gl295_dir-ax",
+      "n_levels": 12,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        221
+      ],
+      "zooms": [
+        0.273,
+        0.273,
+        1.25
+      ],
+      "n_centroids": 12,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl348_dir-ax",
+      "n_levels": 9,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        171
+      ],
+      "zooms": [
+        0.273,
+        0.273,
+        1.25
+      ],
+      "n_centroids": 9,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl352",
+      "n_levels": 12,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        210
+      ],
+      "zooms": [
+        0.352,
+        0.352,
+        1.25
+      ],
+      "n_centroids": 12,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl364_dir-ax",
+      "n_levels": 8,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        149
+      ],
+      "zooms": [
+        0.273,
+        0.273,
+        1.25
+      ],
+      "n_centroids": 8,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl380",
+      "n_levels": 10,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        184
+      ],
+      "zooms": [
+        0.391,
+        0.391,
+        1.25
+      ],
+      "n_centroids": 10,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl419_dir-ax",
+      "n_levels": 11,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        195
+      ],
+      "zooms": [
+        0.309,
+        0.309,
+        1.25
+      ],
+      "n_centroids": 11,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl428_dir-ax",
+      "n_levels": 13,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        192
+      ],
+      "zooms": [
+        0.346,
+        0.346,
+        1.25
+      ],
+      "n_centroids": 13,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl453_dir-ax",
+      "n_levels": 10,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        181
+      ],
+      "zooms": [
+        0.273,
+        0.273,
+        1.25
+      ],
+      "n_centroids": 10,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl479",
+      "n_levels": 11,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        178
+      ],
+      "zooms": [
+        0.365,
+        0.365,
+        1.25
+      ],
+      "n_centroids": 11,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-gl492_dir-ax",
+      "n_levels": 11,
+      "levels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regions": "CT",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        199
+      ],
+      "zooms": [
+        0.273,
+        0.273,
+        1.25
+      ],
+      "n_centroids": 11,
+      "landmarks": [
+        "C2-C3",
+        "C7-T1"
+      ]
+    },
+    {
+      "case": "sub-verse500_dir-ax",
+      "n_levels": 8,
+      "levels": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        542
+      ],
+      "zooms": [
+        0.684,
+        0.684,
+        0.9
+      ],
+      "n_centroids": 8,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse502_dir-iso",
+      "n_levels": 17,
+      "levels": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        1119
+      ],
+      "zooms": [
+        0.977,
+        0.977,
+        0.6
+      ],
+      "n_centroids": 17,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse504_dir-iso",
+      "n_levels": 7,
+      "levels": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        460
+      ],
+      "zooms": [
+        0.891,
+        0.891,
+        0.9
+      ],
+      "n_centroids": 7,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse505",
+      "n_levels": 10,
+      "levels": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": true,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        600
+      ],
+      "zooms": [
+        0.977,
+        0.977,
+        0.9
+      ],
+      "n_centroids": 10,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse506_dir-iso",
+      "n_levels": 19,
+      "levels": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "regions": "CTL",
+      "has_T13": false,
+      "has_L6": true,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        817
+      ],
+      "zooms": [
+        0.865,
+        0.865,
+        0.9
+      ],
+      "n_centroids": 19,
+      "landmarks": [
+        "C7-T1",
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse507_dir-ax",
+      "n_levels": 9,
+      "levels": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        768,
+        768,
+        665
+      ],
+      "zooms": [
+        0.296,
+        0.296,
+        0.45
+      ],
+      "n_centroids": 9,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse508_dir-ax",
+      "n_levels": 17,
+      "levels": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        983
+      ],
+      "zooms": [
+        0.977,
+        0.977,
+        0.7
+      ],
+      "n_centroids": 17,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse509_dir-iso",
+      "n_levels": 19,
+      "levels": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "regions": "CTL",
+      "has_T13": false,
+      "has_L6": true,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        743
+      ],
+      "zooms": [
+        0.732,
+        0.732,
+        0.9
+      ],
+      "n_centroids": 19,
+      "landmarks": [
+        "C7-T1",
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse510_dir-ax",
+      "n_levels": 17,
+      "levels": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        722
+      ],
+      "zooms": [
+        0.805,
+        0.805,
+        0.9
+      ],
+      "n_centroids": 17,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse511_dir-ax",
+      "n_levels": 16,
+      "levels": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        793
+      ],
+      "zooms": [
+        0.752,
+        0.752,
+        0.9
+      ],
+      "n_centroids": 16,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse513",
+      "n_levels": 17,
+      "levels": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        786
+      ],
+      "zooms": [
+        0.934,
+        0.934,
+        0.9
+      ],
+      "n_centroids": 17,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse514_dir-ax",
+      "n_levels": 17,
+      "levels": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        688
+      ],
+      "zooms": [
+        0.705,
+        0.705,
+        0.9
+      ],
+      "n_centroids": 17,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse517_dir-iso",
+      "n_levels": 17,
+      "levels": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": true,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        742
+      ],
+      "zooms": [
+        0.684,
+        0.684,
+        0.9
+      ],
+      "n_centroids": 17,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse518_dir-ax",
+      "n_levels": 17,
+      "levels": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        743
+      ],
+      "zooms": [
+        0.848,
+        0.848,
+        0.9
+      ],
+      "n_centroids": 17,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse519_dir-iso",
+      "n_levels": 17,
+      "levels": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": true,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        738
+      ],
+      "zooms": [
+        0.871,
+        0.871,
+        0.9
+      ],
+      "n_centroids": 17,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse521_dir-ax",
+      "n_levels": 18,
+      "levels": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "CTL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        487
+      ],
+      "zooms": [
+        0.684,
+        0.684,
+        1.0
+      ],
+      "n_centroids": 18,
+      "landmarks": [
+        "C7-T1",
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse522",
+      "n_levels": 10,
+      "levels": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": true,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        513
+      ],
+      "zooms": [
+        0.729,
+        0.729,
+        0.9
+      ],
+      "n_centroids": 10,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse524_dir-iso",
+      "n_levels": 18,
+      "levels": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "regions": "CTL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        1570
+      ],
+      "zooms": [
+        0.824,
+        0.824,
+        0.6
+      ],
+      "n_centroids": 18,
+      "landmarks": [
+        "C7-T1",
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse525_dir-sag",
+      "n_levels": 6,
+      "levels": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "regions": "L",
+      "has_T13": false,
+      "has_L6": true,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        1229,
+        119
+      ],
+      "zooms": [
+        0.381,
+        0.381,
+        3.0
+      ],
+      "n_centroids": 6,
+      "landmarks": []
+    },
+    {
+      "case": "sub-verse527_dir-ax",
+      "n_levels": 10,
+      "levels": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        589
+      ],
+      "zooms": [
+        0.783,
+        0.783,
+        0.9
+      ],
+      "n_centroids": 10,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse529",
+      "n_levels": 13,
+      "levels": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        602
+      ],
+      "zooms": [
+        0.684,
+        0.684,
+        0.9
+      ],
+      "n_centroids": 13,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse530",
+      "n_levels": 8,
+      "levels": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": true,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        702
+      ],
+      "zooms": [
+        0.932,
+        0.932,
+        0.67
+      ],
+      "n_centroids": 8,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse531",
+      "n_levels": 21,
+      "levels": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "CTL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        1532,
+        132
+      ],
+      "zooms": [
+        0.523,
+        0.523,
+        3.0
+      ],
+      "n_centroids": 21,
+      "landmarks": [
+        "C7-T1",
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse532_dir-ax",
+      "n_levels": 9,
+      "levels": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": true,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        993
+      ],
+      "zooms": [
+        0.932,
+        0.932,
+        0.6
+      ],
+      "n_centroids": 9,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse534_dir-iso",
+      "n_levels": 8,
+      "levels": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        506
+      ],
+      "zooms": [
+        0.889,
+        0.889,
+        0.9
+      ],
+      "n_centroids": 8,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse535_dir-iso",
+      "n_levels": 9,
+      "levels": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        550
+      ],
+      "zooms": [
+        0.912,
+        0.912,
+        0.9
+      ],
+      "n_centroids": 9,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse536_dir-ax",
+      "n_levels": 11,
+      "levels": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        610
+      ],
+      "zooms": [
+        0.797,
+        0.797,
+        0.9
+      ],
+      "n_centroids": 11,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse537_dir-iso",
+      "n_levels": 8,
+      "levels": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        493
+      ],
+      "zooms": [
+        0.869,
+        0.869,
+        0.9
+      ],
+      "n_centroids": 8,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse539_dir-ax",
+      "n_levels": 13,
+      "levels": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": true,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        678
+      ],
+      "zooms": [
+        0.977,
+        0.977,
+        0.9
+      ],
+      "n_centroids": 13,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse540_dir-iso",
+      "n_levels": 18,
+      "levels": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": true,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        737
+      ],
+      "zooms": [
+        0.977,
+        0.977,
+        0.9
+      ],
+      "n_centroids": 18,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse541_dir-ax",
+      "n_levels": 8,
+      "levels": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        534
+      ],
+      "zooms": [
+        0.736,
+        0.736,
+        0.9
+      ],
+      "n_centroids": 8,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse542_dir-iso",
+      "n_levels": 18,
+      "levels": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": true,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        755
+      ],
+      "zooms": [
+        0.926,
+        0.926,
+        0.9
+      ],
+      "n_centroids": 18,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse544_dir-ax",
+      "n_levels": 12,
+      "levels": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        528
+      ],
+      "zooms": [
+        0.695,
+        0.695,
+        0.6
+      ],
+      "n_centroids": 12,
+      "landmarks": []
+    },
+    {
+      "case": "sub-verse545_dir-ax",
+      "n_levels": 7,
+      "levels": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        798
+      ],
+      "zooms": [
+        0.771,
+        0.771,
+        0.6
+      ],
+      "n_centroids": 7,
+      "landmarks": [
+        "T12-L1"
+      ]
+    },
+    {
+      "case": "sub-verse546_dir-ax",
+      "n_levels": 7,
+      "levels": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "regions": "TL",
+      "has_T13": false,
+      "has_L6": false,
+      "has_sacrum": false,
+      "shape": [
+        512,
+        512,
+        435
+      ],
+      "zooms": [
+        0.684,
+        0.684,
+        0.9
+      ],
+      "n_centroids": 7,
+      "landmarks": [
+        "T12-L1"
+      ]
+    }
+  ]
+}

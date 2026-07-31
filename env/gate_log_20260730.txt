@@ -1,0 +1,245 @@
+
+======================================================================
+1. python 3.10 environment
+======================================================================
+already exists, reusing
+interpreter C:\Users\dekay\miniconda3\envs\spinelab\python.exe
+version 3.10.20
+
+======================================================================
+2. torch 2.8.0 from the cu128 index
+======================================================================
+  WARNING: The scripts pip.exe, pip3.10.exe and pip3.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Looking in indexes: https://download.pytorch.org/whl/cu128
+Collecting torch==2.8.0
+  Downloading torch-2.8.0%2Bcu128-cp310-cp310-win_amd64.whl.metadata (29 kB)
+Collecting torchvision
+  Downloading torchvision-0.26.0%2Bcu128-cp310-cp310-win_amd64.whl.metadata (5.6 kB)
+Collecting torchaudio
+  Downloading torchaudio-2.11.0%2Bcu128-cp310-cp310-win_amd64.whl.metadata (7.0 kB)
+Collecting filelock (from torch==2.8.0)
+  Using cached filelock-3.29.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting typing-extensions>=4.10.0 (from torch==2.8.0)
+  Using cached typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting sympy>=1.13.3 (from torch==2.8.0)
+  Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting networkx (from torch==2.8.0)
+  Using cached networkx-3.4.2-py3-none-any.whl.metadata (6.3 kB)
+Collecting jinja2 (from torch==2.8.0)
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting fsspec (from torch==2.8.0)
+  Using cached fsspec-2026.4.0-py3-none-any.whl.metadata (10 kB)
+Collecting numpy (from torchvision)
+  Using cached numpy-2.2.6-cp310-cp310-win_amd64.whl.metadata (60 kB)
+INFO: pip is looking at multiple versions of torchvision to determine which version is compatible with other requirements. This could take a while.
+Collecting torchvision
+  Downloading torchvision-0.25.0%2Bcu128-cp310-cp310-win_amd64.whl.metadata (5.5 kB)
+  Downloading torchvision-0.24.1%2Bcu128-cp310-cp310-win_amd64.whl.metadata (6.1 kB)
+  Downloading torchvision-0.24.0%2Bcu128-cp310-cp310-win_amd64.whl.metadata (6.1 kB)
+  Downloading torchvision-0.23.0%2Bcu128-cp310-cp310-win_amd64.whl.metadata (6.3 kB)
+Collecting pillow!=8.3.*,>=5.3.0 (from torchvision)
+  Downloading pillow-12.2.0-cp310-cp310-win_amd64.whl.metadata (9.0 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch==2.8.0)
+  Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch==2.8.0)
+  Downloading markupsafe-3.0.3-cp310-cp310-win_amd64.whl.metadata (2.8 kB)
+Downloading torch-2.8.0%2Bcu128-cp310-cp310-win_amd64.whl (3461.4 MB)
+   ---------------------------------------- 3.5/3.5 GB 33.4 MB/s  0:01:06
+Downloading torchvision-0.23.0%2Bcu128-cp310-cp310-win_amd64.whl (7.5 MB)
+   ---------------------------------------- 7.5/7.5 MB 17.2 MB/s  0:00:00
+Downloading torchaudio-2.11.0%2Bcu128-cp310-cp310-win_amd64.whl (1.7 MB)
+   ---------------------------------------- 1.7/1.7 MB 45.5 MB/s  0:00:00
+Downloading pillow-12.2.0-cp310-cp310-win_amd64.whl (7.1 MB)
+   ---------------------------------------- 7.1/7.1 MB 33.6 MB/s  0:00:00
+Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+Using cached typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Using cached filelock-3.29.0-py3-none-any.whl (39 kB)
+Using cached fsspec-2026.4.0-py3-none-any.whl (203 kB)
+Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading markupsafe-3.0.3-cp310-cp310-win_amd64.whl (15 kB)
+Using cached networkx-3.4.2-py3-none-any.whl (1.7 MB)
+Using cached numpy-2.2.6-cp310-cp310-win_amd64.whl (12.9 MB)
+Installing collected packages: torchaudio, mpmath, typing-extensions, sympy, pillow, numpy, networkx, MarkupSafe, fsspec, filelock, jinja2, torch, torchvision
+  WARNING: The script isympy.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts f2py.exe and numpy-config.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts torchfrtrace.exe and torchrun.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+Successfully installed MarkupSafe-3.0.3 filelock-3.29.0 fsspec-2026.4.0 jinja2-3.1.6 mpmath-1.3.0 networkx-3.4.2 numpy-2.2.6 pillow-12.2.0 sympy-1.14.0 torch-2.8.0+cu128 torchaudio-2.11.0+cu128 torchvision-0.23.0+cu128 typing-extensions-4.15.0
+
+======================================================================
+3. GPU gate: does this card actually execute kernels
+======================================================================
+torch           2.8.0+cu128
+cuda runtime    12.8
+is_available    True
+arch_list       ['sm_61', 'sm_70', 'sm_75', 'sm_80', 'sm_86', 'sm_90', 'sm_100', 'sm_120']
+device          NVIDIA GeForce RTX 5090 Laptop GPU
+capability      sm_120
+total memory   23.9 GiB
+device count    1
+fp32 matmul     OK, finite: True
+fp16 matmul     OK, finite: True
+bf16 matmul     OK
+conv3d          OK
+GPU GATE PASSED
+
+======================================================================
+4. pipeline dependencies
+======================================================================
+  WARNING: The scripts lsm2bin.exe, tiff2fsspec.exe, tiffcomment.exe and tifffile.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script pygmentize.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script pydicom.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts imageio_download_bin.exe and imageio_remove_bin.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script idna.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts gunicorn.exe and gunicornc.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts futurize.exe and pasteurize.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts fonttools.exe, pyftmerge.exe, pyftsubset.exe and ttx.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script normalizer.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script unit2.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script tqdm.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts nib-conform.exe, nib-convert.exe, nib-dicomfs.exe, nib-diff.exe, nib-ls.exe, nib-nifti-dx.exe, nib-roi.exe, nib-stats.exe, nib-tck2trk.exe, nib-trk2tck.exe and parrec2nii.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script markdown-it.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script httpx.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script flask.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script parquet-to-blosc2.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script typer.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts hf.exe, huggingface-cli.exe and tiny-agents.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts tiohd.exe, tiotr.exe and torchio-transform.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+======================================================================
+5. totalspineseg and its nnunetv2 pin
+======================================================================
+  WARNING: The script auglab_add_nnunettrainer.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts totalspineseg.exe, totalspineseg_augment.exe, totalspineseg_average4d.exe, totalspineseg_cpdir.exe, totalspineseg_crop_image2seg.exe, totalspineseg_extract_alternate.exe, totalspineseg_extract_levels.exe, totalspineseg_extract_soft.exe, totalspineseg_fill_canal.exe, totalspineseg_init.exe, totalspineseg_install_weights.exe, totalspineseg_iterative_label.exe, totalspineseg_largest_component.exe, totalspineseg_map_labels.exe, totalspineseg_predict_nnunet.exe, totalspineseg_preview_jpg.exe, totalspineseg_reorient_canonical.exe, totalspineseg_resample.exe and totalspineseg_transform_seg2image.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+WARNING: Package(s) not found: nnunetv2
+
+Name: totalspineseg
+Version: 20260623
+
+======================================================================
+6. checkpoint gate: trainer resolution and real deserialisation
+======================================================================
+======================================================================
+1. versions
+======================================================================
+torch      2.8.0+cu128
+nnunetv2 import FAILED: No module named 'nnunetv2'
+
+Checkpoint gate FAILED (exit 1). Retrying with nnunetv2 pinned to 2.4.2,
+which is the version the notes tie to nnUNetTrainer_DASegOrd0_NoMirroring.
+  WARNING: The scripts gdcmanon.exe, gdcmconv.exe, gdcmdiff.exe, gdcmdump.exe, gdcmgendir.exe, gdcmimg.exe, gdcminfo.exe, gdcmpap3.exe, gdcmraw.exe, gdcmscanner.exe, gdcmscu.exe, gdcmtar.exe and gdcmxml.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script imagecodecs.exe is installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts nnUNetv2_accumulate_crossval_results.exe, nnUNetv2_apply_postprocessing.exe, nnUNetv2_convert_MSD_dataset.exe, nnUNetv2_convert_old_nnUNet_dataset.exe, nnUNetv2_determine_postprocessing.exe, nnUNetv2_download_pretrained_model_by_url.exe, nnUNetv2_ensemble.exe, nnUNetv2_evaluate_folder.exe, nnUNetv2_evaluate_simple.exe, nnUNetv2_export_model_to_zip.exe, nnUNetv2_extract_fingerprint.exe, nnUNetv2_find_best_configuration.exe, nnUNetv2_install_pretrained_model_from_zip.exe, nnUNetv2_move_plans_between_datasets.exe, nnUNetv2_plan_and_preprocess.exe, nnUNetv2_plan_experiment.exe, nnUNetv2_plot_overlay_pngs.exe, nnUNetv2_predict.exe, nnUNetv2_predict_from_modelfolder.exe, nnUNetv2_preprocess.exe and nnUNetv2_train.exe are installed in 'C:\Users\dekay\miniconda3\envs\spinelab\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+======================================================================
+1. versions
+======================================================================
+torch      2.8.0+cu128
+nnunetv2   2.4.2
+totalspineseg 20260623
+
+======================================================================
+2. trainer resolution
+======================================================================
+nnUNet_raw is not defined and nnU-Net can only be used on data for which preprocessed files are already present on your system. nnU-Net cannot be used for experiment planning and preprocessing like this. If this is not intended, please read documentation/setting_up_paths.md for information on how to set this up properly.
+nnUNet_preprocessed is not defined and nnU-Net can not be used for preprocessing or training. If this is not intended, please read documentation/setting_up_paths.md for information on how to set this up.
+nnUNet_results is not defined and nnU-Net cannot be used for training or inference. If this is not intended behavior, please read documentation/setting_up_paths.md for information on how to set this up.
+  nnUNetTrainer                            FOUND  nnunetv2.training.nnUNetTrainer.nnUNetTrainer
+  nnUNetTrainer_DASegOrd0_NoMirroring      FOUND  nnunetv2.training.nnUNetTrainer.variants.data_augmentation.nnUNetTrainerDAOrd0
+
+======================================================================
+3. checkpoint deserialisation and plans
+======================================================================
+
+[step1] Dataset101_TotalSpineSeg_step1
+   checkpoint keys: ['_best_ema', 'current_epoch', 'grad_scaler_state', 'inference_allowed_mirroring_axes', 'init_args', 'logging', 'network_weights', 'optimizer_state', 'trainer_name']
+   trainer_name   : nnUNetTrainer_DASegOrd0_NoMirroring
+   init_args      : {'plans': {'dataset_name': 'Dataset101_TotalSpineSeg_step1', 'plans_name': 'nnUNetPlans_small', 'original_medi
+   tensors=292  params=88.2M
+   plans_name     : nnUNetPlans_small
+   patch_size     : [128, 96, 96]
+   spacing        : [1.0, 1.0, 1.0]
+   batch_size     : 23
+   channel_names  : {'0': 'MRI'}
+   n_label_entries: 10
+   labels         : {"background": 0, "disc": [1, 2, 3, 4, 5], "disc_C2_C3": 2, "disc_C7_T1": 3, "disc_T12_L1": 4, "disc_L5_S": 5, "vertebrae": [6, 7], "vertebrae_C1": 7, "canal": [8, 9], "cord": 9}
+   regions_class_order: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+   -> REGION BASED, so softmax channel i corresponds to
+      regions_class_order[i], NOT to label value i.
+
+[step2] Dataset102_TotalSpineSeg_step2
+   checkpoint keys: ['_best_ema', 'current_epoch', 'grad_scaler_state', 'inference_allowed_mirroring_axes', 'init_args', 'logging', 'network_weights', 'optimizer_state', 'trainer_name']
+   trainer_name   : nnUNetTrainer_DASegOrd0_NoMirroring
+   init_args      : {'plans': {'dataset_name': 'Dataset102_TotalSpineSeg_step2', 'plans_name': 'nnUNetPlans_small', 'original_medi
+   tensors=292  params=88.2M
+   plans_name     : nnUNetPlans_small
+   patch_size     : [128, 96, 96]
+   spacing        : [1.0, 1.0, 1.0]
+   batch_size     : 14
+   channel_names  : {'0': 'MRI', '1': 'noNorm'}
+   n_label_entries: 12
+   labels         : {"background": 0, "disc": [1, 2, 3, 4, 5], "disc_C2_C3": 2, "disc_C7_T1": 3, "disc_T12_L1": 4, "disc_L5_S": 5, "vertebrae": [6, 7, 8, 9], "vertebrae_O": 7, "vertebrae_E": 8, "sacrum": 9, "canal": [10, 11], "cord": 11}
+   regions_class_order: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+   -> REGION BASED, so softmax channel i corresponds to
+      regions_class_order[i], NOT to label value i.
+
+[full] Dataset103_TotalSpineSeg_full
+   checkpoint keys: ['_best_ema', 'current_epoch', 'grad_scaler_state', 'inference_allowed_mirroring_axes', 'init_args', 'logging', 'network_weights', 'optimizer_state', 'trainer_name']
+   trainer_name   : nnUNetTrainer
+   init_args      : {'plans': {'dataset_name': 'Dataset103_TotalSpineSeg_full', 'plans_name': 'nnUNetPlans', 'original_median_spac
+   tensors=292  params=88.3M
+   plans_name     : nnUNetPlans
+   patch_size     : [160, 160, 80]
+   spacing        : [1.0, 1.0, 1.0]
+   batch_size     : 2
+   channel_names  : {'0': 'MRI'}
+   n_label_entries: 60
+   labels         : {"background": 0, "disc": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27], "disc_C": [2, 3, 4, 5, 6, 7, 8], "disc_C2_C3": 3, "disc_C3_C4": 4, "disc_C4_C5": 5, "disc_C5_C6": 6, "disc_C6_C7": 7, "disc_C7_T1": 8, "disc_T": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "disc_T1_T2": 10, "disc_T2_T3": 11, "disc_T3_T4": 12, "disc_T4_T5": 13, "di
+   regions_class_order: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]
+   -> REGION BASED, so softmax channel i corresponds to
+      regions_class_order[i], NOT to label value i.
+
+======================================================================
+VERDICT: trainers=ok checkpoints=ok
+======================================================================
+
+======================================================================
+7. freeze
+======================================================================
+wrote requirements.lock (108 lines)
+
+======================================================================
+SUMMARY
+======================================================================
+interpreter    : C:\Users\dekay\miniconda3\envs\spinelab\python.exe
+checkpoint gate: PASSED
+
+>>> script exit code: 0

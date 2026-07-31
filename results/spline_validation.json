@@ -1,0 +1,1327 @@
+{
+  "n_seeds": 12,
+  "clean": {
+    "noiseless": {
+      "deployed  in sample z>1.5, std floor 0.1 px, no mm guard": {
+        "rule": "deployed  in sample z>1.5, std floor 0.1 px, no mm guard",
+        "score": "z",
+        "n_studies": 432,
+        "n_vertebrae": 6156,
+        "fp": 456,
+        "fp_rate": 0.07407407407407407,
+        "endpoint_n": 1944,
+        "endpoint_fp": 48,
+        "endpoint_rate": 0.024691358024691357,
+        "interior_n": 4212,
+        "interior_fp": 408,
+        "interior_rate": 0.09686609686609686,
+        "studies_with_a_flag": 396,
+        "study_rate": 0.9166666666666666,
+        "z_passed": 456,
+        "blocked_by_mm_guard": 0,
+        "per_depth": {
+          "0": [
+            1944,
+            48
+          ],
+          "1": [
+            1836,
+            396
+          ],
+          "2": [
+            1188,
+            12
+          ],
+          "3": [
+            648,
+            0
+          ],
+          "4": [
+            324,
+            0
+          ],
+          "5": [
+            216,
+            0
+          ]
+        },
+        "per_region_size": {
+          "3": [
+            324,
+            84
+          ],
+          "4": [
+            432,
+            0
+          ],
+          "5": [
+            1620,
+            36
+          ],
+          "7": [
+            1512,
+            108
+          ],
+          "9": [
+            972,
+            72
+          ],
+          "12": [
+            1296,
+            156
+          ]
+        },
+        "per_fit_scope": {
+          "global": [
+            324,
+            84
+          ],
+          "region": [
+            5832,
+            372
+          ]
+        },
+        "residual_px_median": 0.1934028338369132,
+        "residual_px_p95": 0.9100884182723568,
+        "loo_px_median": 0.7605904601840655,
+        "loo_px_p95": 104.4936285704975
+      },
+      "guarded   in sample z>1.5, std floor 1.0 px, min residual 3.0 mm": {
+        "rule": "guarded   in sample z>1.5, std floor 1.0 px, min residual 3.0 mm",
+        "score": "z",
+        "n_studies": 432,
+        "n_vertebrae": 6156,
+        "fp": 0,
+        "fp_rate": 0.0,
+        "endpoint_n": 1944,
+        "endpoint_fp": 0,
+        "endpoint_rate": 0.0,
+        "interior_n": 4212,
+        "interior_fp": 0,
+        "interior_rate": 0.0,
+        "studies_with_a_flag": 0,
+        "study_rate": 0.0,
+        "z_passed": 0,
+        "blocked_by_mm_guard": 0,
+        "per_depth": {
+          "0": [
+            1944,
+            0
+          ],
+          "1": [
+            1836,
+            0
+          ],
+          "2": [
+            1188,
+            0
+          ],
+          "3": [
+            648,
+            0
+          ],
+          "4": [
+            324,
+            0
+          ],
+          "5": [
+            216,
+            0
+          ]
+        },
+        "per_region_size": {
+          "3": [
+            324,
+            0
+          ],
+          "4": [
+            432,
+            0
+          ],
+          "5": [
+            1620,
+            0
+          ],
+          "7": [
+            1512,
+            0
+          ],
+          "9": [
+            972,
+            0
+          ],
+          "12": [
+            1296,
+            0
+          ]
+        },
+        "per_fit_scope": {
+          "global": [
+            324,
+            0
+          ],
+          "region": [
+            5832,
+            0
+          ]
+        },
+        "residual_px_median": 0.1934028338369132,
+        "residual_px_p95": 0.9100884182723568,
+        "loo_px_median": 0.7605904601840655,
+        "loo_px_p95": 104.4936285704975
+      },
+      "loo raw   leave one out z>1.5, std floor 1.0 px, no mm guard": {
+        "rule": "loo raw   leave one out z>1.5, std floor 1.0 px, no mm guard",
+        "score": "z_loo",
+        "n_studies": 432,
+        "n_vertebrae": 5724,
+        "fp": 864,
+        "fp_rate": 0.1509433962264151,
+        "endpoint_n": 1728,
+        "endpoint_fp": 864,
+        "endpoint_rate": 0.5,
+        "interior_n": 3996,
+        "interior_fp": 0,
+        "interior_rate": 0.0,
+        "studies_with_a_flag": 432,
+        "study_rate": 1.0,
+        "z_passed": 864,
+        "blocked_by_mm_guard": 0,
+        "per_depth": {
+          "0": [
+            1728,
+            864
+          ],
+          "1": [
+            1620,
+            0
+          ],
+          "2": [
+            1188,
+            0
+          ],
+          "3": [
+            648,
+            0
+          ],
+          "4": [
+            324,
+            0
+          ],
+          "5": [
+            216,
+            0
+          ]
+        },
+        "per_region_size": {
+          "3": [
+            324,
+            0
+          ],
+          "5": [
+            1620,
+            540
+          ],
+          "7": [
+            1512,
+            216
+          ],
+          "9": [
+            972,
+            0
+          ],
+          "12": [
+            1296,
+            108
+          ]
+        },
+        "per_fit_scope": {
+          "global": [
+            324,
+            0
+          ],
+          "region": [
+            5400,
+            864
+          ]
+        },
+        "residual_px_median": 0.22250664682523522,
+        "residual_px_p95": 0.923996013841817,
+        "loo_px_median": 0.7605904601840655,
+        "loo_px_p95": 104.4936285704975
+      },
+      "loo       leave one out z>1.5, std floor 1.0 px, min residual 3.0 mm": {
+        "rule": "loo       leave one out z>1.5, std floor 1.0 px, min residual 3.0 mm",
+        "score": "z_loo",
+        "n_studies": 432,
+        "n_vertebrae": 5724,
+        "fp": 864,
+        "fp_rate": 0.1509433962264151,
+        "endpoint_n": 1728,
+        "endpoint_fp": 864,
+        "endpoint_rate": 0.5,
+        "interior_n": 3996,
+        "interior_fp": 0,
+        "interior_rate": 0.0,
+        "studies_with_a_flag": 432,
+        "study_rate": 1.0,
+        "z_passed": 864,
+        "blocked_by_mm_guard": 0,
+        "per_depth": {
+          "0": [
+            1728,
+            864
+          ],
+          "1": [
+            1620,
+            0
+          ],
+          "2": [
+            1188,
+            0
+          ],
+          "3": [
+            648,
+            0
+          ],
+          "4": [
+            324,
+            0
+          ],
+          "5": [
+            216,
+            0
+          ]
+        },
+        "per_region_size": {
+          "3": [
+            324,
+            0
+          ],
+          "5": [
+            1620,
+            540
+          ],
+          "7": [
+            1512,
+            216
+          ],
+          "9": [
+            972,
+            0
+          ],
+          "12": [
+            1296,
+            108
+          ]
+        },
+        "per_fit_scope": {
+          "global": [
+            324,
+            0
+          ],
+          "region": [
+            5400,
+            864
+          ]
+        },
+        "residual_px_median": 0.22250664682523522,
+        "residual_px_p95": 0.923996013841817,
+        "loo_px_median": 0.7605904601840655,
+        "loo_px_p95": 104.4936285704975
+      }
+    },
+    "centroid noise 0.5 mm": {
+      "deployed  in sample z>1.5, std floor 0.1 px, no mm guard": {
+        "rule": "deployed  in sample z>1.5, std floor 0.1 px, no mm guard",
+        "score": "z",
+        "n_studies": 432,
+        "n_vertebrae": 6156,
+        "fp": 671,
+        "fp_rate": 0.1089993502274204,
+        "endpoint_n": 1944,
+        "endpoint_fp": 43,
+        "endpoint_rate": 0.022119341563786008,
+        "interior_n": 4212,
+        "interior_fp": 628,
+        "interior_rate": 0.14909781576448244,
+        "studies_with_a_flag": 419,
+        "study_rate": 0.9699074074074074,
+        "z_passed": 671,
+        "blocked_by_mm_guard": 0,
+        "per_depth": {
+          "0": [
+            1944,
+            43
+          ],
+          "1": [
+            1836,
+            147
+          ],
+          "2": [
+            1188,
+            188
+          ],
+          "3": [
+            648,
+            160
+          ],
+          "4": [
+            324,
+            87
+          ],
+          "5": [
+            216,
+            46
+          ]
+        },
+        "per_region_size": {
+          "3": [
+            324,
+            55
+          ],
+          "4": [
+            432,
+            0
+          ],
+          "5": [
+            1620,
+            66
+          ],
+          "7": [
+            1512,
+            213
+          ],
+          "9": [
+            972,
+            149
+          ],
+          "12": [
+            1296,
+            188
+          ]
+        },
+        "per_fit_scope": {
+          "global": [
+            324,
+            55
+          ],
+          "region": [
+            5832,
+            616
+          ]
+        },
+        "residual_px_median": 0.4010744035993611,
+        "residual_px_p95": 1.3201939666629814,
+        "loo_px_median": 2.539408251447437,
+        "loo_px_p95": 104.01920879950897
+      },
+      "guarded   in sample z>1.5, std floor 1.0 px, min residual 3.0 mm": {
+        "rule": "guarded   in sample z>1.5, std floor 1.0 px, min residual 3.0 mm",
+        "score": "z",
+        "n_studies": 432,
+        "n_vertebrae": 6156,
+        "fp": 0,
+        "fp_rate": 0.0,
+        "endpoint_n": 1944,
+        "endpoint_fp": 0,
+        "endpoint_rate": 0.0,
+        "interior_n": 4212,
+        "interior_fp": 0,
+        "interior_rate": 0.0,
+        "studies_with_a_flag": 0,
+        "study_rate": 0.0,
+        "z_passed": 0,
+        "blocked_by_mm_guard": 0,
+        "per_depth": {
+          "0": [
+            1944,
+            0
+          ],
+          "1": [
+            1836,
+            0
+          ],
+          "2": [
+            1188,
+            0
+          ],
+          "3": [
+            648,
+            0
+          ],
+          "4": [
+            324,
+            0
+          ],
+          "5": [
+            216,
+            0
+          ]
+        },
+        "per_region_size": {
+          "3": [
+            324,
+            0
+          ],
+          "4": [
+            432,
+            0
+          ],
+          "5": [
+            1620,
+            0
+          ],
+          "7": [
+            1512,
+            0
+          ],
+          "9": [
+            972,
+            0
+          ],
+          "12": [
+            1296,
+            0
+          ]
+        },
+        "per_fit_scope": {
+          "global": [
+            324,
+            0
+          ],
+          "region": [
+            5832,
+            0
+          ]
+        },
+        "residual_px_median": 0.4010744035993611,
+        "residual_px_p95": 1.3201939666629814,
+        "loo_px_median": 2.539408251447437,
+        "loo_px_p95": 104.01920879950897
+      },
+      "loo raw   leave one out z>1.5, std floor 1.0 px, no mm guard": {
+        "rule": "loo raw   leave one out z>1.5, std floor 1.0 px, no mm guard",
+        "score": "z_loo",
+        "n_studies": 432,
+        "n_vertebrae": 5724,
+        "fp": 827,
+        "fp_rate": 0.1444793850454228,
+        "endpoint_n": 1728,
+        "endpoint_fp": 827,
+        "endpoint_rate": 0.47858796296296297,
+        "interior_n": 3996,
+        "interior_fp": 0,
+        "interior_rate": 0.0,
+        "studies_with_a_flag": 428,
+        "study_rate": 0.9907407407407407,
+        "z_passed": 827,
+        "blocked_by_mm_guard": 0,
+        "per_depth": {
+          "0": [
+            1728,
+            827
+          ],
+          "1": [
+            1620,
+            0
+          ],
+          "2": [
+            1188,
+            0
+          ],
+          "3": [
+            648,
+            0
+          ],
+          "4": [
+            324,
+            0
+          ],
+          "5": [
+            216,
+            0
+          ]
+        },
+        "per_region_size": {
+          "3": [
+            324,
+            0
+          ],
+          "5": [
+            1620,
+            536
+          ],
+          "7": [
+            1512,
+            183
+          ],
+          "9": [
+            972,
+            0
+          ],
+          "12": [
+            1296,
+            108
+          ]
+        },
+        "per_fit_scope": {
+          "global": [
+            324,
+            0
+          ],
+          "region": [
+            5400,
+            827
+          ]
+        },
+        "residual_px_median": 0.4454979015376576,
+        "residual_px_p95": 1.3350696883699067,
+        "loo_px_median": 2.539408251447437,
+        "loo_px_p95": 104.01920879950897
+      },
+      "loo       leave one out z>1.5, std floor 1.0 px, min residual 3.0 mm": {
+        "rule": "loo       leave one out z>1.5, std floor 1.0 px, min residual 3.0 mm",
+        "score": "z_loo",
+        "n_studies": 432,
+        "n_vertebrae": 5724,
+        "fp": 827,
+        "fp_rate": 0.1444793850454228,
+        "endpoint_n": 1728,
+        "endpoint_fp": 827,
+        "endpoint_rate": 0.47858796296296297,
+        "interior_n": 3996,
+        "interior_fp": 0,
+        "interior_rate": 0.0,
+        "studies_with_a_flag": 428,
+        "study_rate": 0.9907407407407407,
+        "z_passed": 827,
+        "blocked_by_mm_guard": 0,
+        "per_depth": {
+          "0": [
+            1728,
+            827
+          ],
+          "1": [
+            1620,
+            0
+          ],
+          "2": [
+            1188,
+            0
+          ],
+          "3": [
+            648,
+            0
+          ],
+          "4": [
+            324,
+            0
+          ],
+          "5": [
+            216,
+            0
+          ]
+        },
+        "per_region_size": {
+          "3": [
+            324,
+            0
+          ],
+          "5": [
+            1620,
+            536
+          ],
+          "7": [
+            1512,
+            183
+          ],
+          "9": [
+            972,
+            0
+          ],
+          "12": [
+            1296,
+            108
+          ]
+        },
+        "per_fit_scope": {
+          "global": [
+            324,
+            0
+          ],
+          "region": [
+            5400,
+            827
+          ]
+        },
+        "residual_px_median": 0.4454979015376576,
+        "residual_px_p95": 1.3350696883699067,
+        "loo_px_median": 2.539408251447437,
+        "loo_px_p95": 104.01920879950897
+      }
+    }
+  },
+  "injections": {
+    "deployed  in sample z>1.5, std floor 0.1 px, no mm guard": {
+      "single level shift": {
+        "rule": "deployed  in sample z>1.5, std floor 0.1 px, no mm guard",
+        "n": 432,
+        "site_rate": 0.05092592592592592,
+        "site_rate_clean_control": 0.22685185185185186,
+        "any_rate": 0.2175925925925926,
+        "any_rate_clean_control": 0.39351851851851855,
+        "fp_on_correct_levels": 0.17294973544973544
+      },
+      "adjacent swap": {
+        "rule": "deployed  in sample z>1.5, std floor 0.1 px, no mm guard",
+        "n": 432,
+        "site_rate": 0.11342592592592593,
+        "site_rate_clean_control": 0.22685185185185186,
+        "any_rate": 0.3402777777777778,
+        "any_rate_clean_control": 0.2962962962962963,
+        "fp_on_correct_levels": 0.09863945578231292
+      },
+      "whole column off by one": {
+        "rule": "deployed  in sample z>1.5, std floor 0.1 px, no mm guard",
+        "n": 432,
+        "site_rate": 0.0,
+        "site_rate_clean_control": 0.0,
+        "any_rate": 0.9699074074074074,
+        "any_rate_clean_control": 0.9699074074074074,
+        "fp_on_correct_levels": NaN
+      },
+      "lateral 10 mm (control)": {
+        "rule": "deployed  in sample z>1.5, std floor 0.1 px, no mm guard",
+        "n": 432,
+        "site_rate": 0.23148148148148148,
+        "site_rate_clean_control": 0.22685185185185186,
+        "any_rate": 0.23148148148148148,
+        "any_rate_clean_control": 0.22685185185185186,
+        "fp_on_correct_levels": 0.11023759608665269
+      }
+    },
+    "guarded   in sample z>1.5, std floor 1.0 px, min residual 3.0 mm": {
+      "single level shift": {
+        "rule": "guarded   in sample z>1.5, std floor 1.0 px, min residual 3.0 mm",
+        "n": 432,
+        "site_rate": 0.0,
+        "site_rate_clean_control": 0.0,
+        "any_rate": 0.0,
+        "any_rate_clean_control": 0.0,
+        "fp_on_correct_levels": 0.0
+      },
+      "adjacent swap": {
+        "rule": "guarded   in sample z>1.5, std floor 1.0 px, min residual 3.0 mm",
+        "n": 432,
+        "site_rate": 0.0,
+        "site_rate_clean_control": 0.0,
+        "any_rate": 0.0,
+        "any_rate_clean_control": 0.0,
+        "fp_on_correct_levels": 0.0
+      },
+      "whole column off by one": {
+        "rule": "guarded   in sample z>1.5, std floor 1.0 px, min residual 3.0 mm",
+        "n": 432,
+        "site_rate": 0.0,
+        "site_rate_clean_control": 0.0,
+        "any_rate": 0.0,
+        "any_rate_clean_control": 0.0,
+        "fp_on_correct_levels": NaN
+      },
+      "lateral 10 mm (control)": {
+        "rule": "guarded   in sample z>1.5, std floor 1.0 px, min residual 3.0 mm",
+        "n": 432,
+        "site_rate": 0.0,
+        "site_rate_clean_control": 0.0,
+        "any_rate": 0.0,
+        "any_rate_clean_control": 0.0,
+        "fp_on_correct_levels": 0.0
+      }
+    },
+    "loo raw   leave one out z>1.5, std floor 1.0 px, no mm guard": {
+      "single level shift": {
+        "rule": "loo raw   leave one out z>1.5, std floor 1.0 px, no mm guard",
+        "n": 432,
+        "site_rate": 0.0,
+        "site_rate_clean_control": 0.0,
+        "any_rate": 0.75,
+        "any_rate_clean_control": 0.6898148148148148,
+        "fp_on_correct_levels": 0.09457671957671958
+      },
+      "adjacent swap": {
+        "rule": "loo raw   leave one out z>1.5, std floor 1.0 px, no mm guard",
+        "n": 432,
+        "site_rate": 0.13657407407407407,
+        "site_rate_clean_control": 0.0,
+        "any_rate": 0.13657407407407407,
+        "any_rate_clean_control": 0.18981481481481483,
+        "fp_on_correct_levels": 0.13813303099017385
+      },
+      "whole column off by one": {
+        "rule": "loo raw   leave one out z>1.5, std floor 1.0 px, no mm guard",
+        "n": 432,
+        "site_rate": 0.4675925925925926,
+        "site_rate_clean_control": 0.2337962962962963,
+        "any_rate": 0.75,
+        "any_rate_clean_control": 0.75,
+        "fp_on_correct_levels": NaN
+      },
+      "lateral 10 mm (control)": {
+        "rule": "loo raw   leave one out z>1.5, std floor 1.0 px, no mm guard",
+        "n": 432,
+        "site_rate": 0.0,
+        "site_rate_clean_control": 0.0,
+        "any_rate": 0.0,
+        "any_rate_clean_control": 0.0,
+        "fp_on_correct_levels": 0.1243885394828791
+      }
+    },
+    "loo       leave one out z>1.5, std floor 1.0 px, min residual 3.0 mm": {
+      "single level shift": {
+        "rule": "loo       leave one out z>1.5, std floor 1.0 px, min residual 3.0 mm",
+        "n": 432,
+        "site_rate": 0.0,
+        "site_rate_clean_control": 0.0,
+        "any_rate": 0.75,
+        "any_rate_clean_control": 0.6898148148148148,
+        "fp_on_correct_levels": 0.09457671957671958
+      },
+      "adjacent swap": {
+        "rule": "loo       leave one out z>1.5, std floor 1.0 px, min residual 3.0 mm",
+        "n": 432,
+        "site_rate": 0.13657407407407407,
+        "site_rate_clean_control": 0.0,
+        "any_rate": 0.13657407407407407,
+        "any_rate_clean_control": 0.18981481481481483,
+        "fp_on_correct_levels": 0.13813303099017385
+      },
+      "whole column off by one": {
+        "rule": "loo       leave one out z>1.5, std floor 1.0 px, min residual 3.0 mm",
+        "n": 432,
+        "site_rate": 0.4675925925925926,
+        "site_rate_clean_control": 0.2337962962962963,
+        "any_rate": 0.75,
+        "any_rate_clean_control": 0.75,
+        "fp_on_correct_levels": NaN
+      },
+      "lateral 10 mm (control)": {
+        "rule": "loo       leave one out z>1.5, std floor 1.0 px, min residual 3.0 mm",
+        "n": 432,
+        "site_rate": 0.0,
+        "site_rate_clean_control": 0.0,
+        "any_rate": 0.0,
+        "any_rate_clean_control": 0.0,
+        "fp_on_correct_levels": 0.1243885394828791
+      }
+    }
+  },
+  "smoothing_scale": {
+    "noiseless": {
+      "n_fits": 123,
+      "predicted_rms_px": 0.7071067811865476,
+      "rms_x_px_mean": 0.22734299118853044,
+      "rms_y_px_mean": 0.24838047596519788,
+      "rms_x_px_max": 0.7072335740341044,
+      "rms_y_px_max": 0.7072618614862415,
+      "n_range": [
+        4,
+        12
+      ],
+      "fits": 123,
+      "fits_with_scipy_warning": 0,
+      "warn_rate": 0.0
+    },
+    "centroid noise 0.5 mm": {
+      "n_fits": 123,
+      "predicted_rms_px": 0.7071067811865476,
+      "rms_x_px_mean": 0.4973007444267495,
+      "rms_y_px_mean": 0.30960729667008924,
+      "rms_x_px_max": 0.7073103744671435,
+      "rms_y_px_max": 0.707456680089672,
+      "n_range": [
+        4,
+        12
+      ],
+      "fits": 123,
+      "fits_with_scipy_warning": 0,
+      "warn_rate": 0.0
+    }
+  },
+  "discretisation": {
+    "noiseless": {
+      "n": 574,
+      "bias_px_mean": 0.04556977157799286,
+      "bias_px_max": 0.3492598025937647,
+      "coarse_median_px": 0.1803922435018475,
+      "fraction_of_median": 0.2526149167690026
+    },
+    "centroid noise 0.5 mm": {
+      "n": 574,
+      "bias_px_mean": 0.029507267846697844,
+      "bias_px_max": 0.3320204504809694,
+      "coarse_median_px": 0.3891457033219877,
+      "fraction_of_median": 0.07582575779407458
+    }
+  },
+  "masking": [
+    {
+      "offset_mm": 0.0,
+      "n": 144,
+      "site_residual_mm_median": 0.21154078466445925,
+      "site_loo_residual_mm_median": 0.5532039157902332,
+      "neighbour_residual_mm_median": 0.13235385425921714,
+      "detect_deployed": 0.2152777777777778,
+      "detect_guarded": 0.0,
+      "detect_loo": 0.0,
+      "detect_loo_raw": 0.0
+    },
+    {
+      "offset_mm": 0.5,
+      "n": 144,
+      "site_residual_mm_median": 0.24690567519973577,
+      "site_loo_residual_mm_median": 0.8179000387654205,
+      "neighbour_residual_mm_median": 0.13474902857907978,
+      "detect_deployed": 0.24305555555555555,
+      "detect_guarded": 0.0,
+      "detect_loo": 0.0,
+      "detect_loo_raw": 0.0
+    },
+    {
+      "offset_mm": 1.0,
+      "n": 144,
+      "site_residual_mm_median": 0.265144156556273,
+      "site_loo_residual_mm_median": 1.1710263577404365,
+      "neighbour_residual_mm_median": 0.1579166384838046,
+      "detect_deployed": 0.2777777777777778,
+      "detect_guarded": 0.0,
+      "detect_loo": 0.0,
+      "detect_loo_raw": 0.0
+    },
+    {
+      "offset_mm": 2.0,
+      "n": 144,
+      "site_residual_mm_median": 0.28573745092332636,
+      "site_loo_residual_mm_median": 1.9701084414921421,
+      "neighbour_residual_mm_median": 0.2208331833124702,
+      "detect_deployed": 0.2638888888888889,
+      "detect_guarded": 0.0,
+      "detect_loo": 0.0,
+      "detect_loo_raw": 0.0
+    },
+    {
+      "offset_mm": 5.0,
+      "n": 144,
+      "site_residual_mm_median": 0.28989616036914256,
+      "site_loo_residual_mm_median": 4.922978855567067,
+      "neighbour_residual_mm_median": 0.3882261838341837,
+      "detect_deployed": 0.2361111111111111,
+      "detect_guarded": 0.0,
+      "detect_loo": 0.0,
+      "detect_loo_raw": 0.0
+    },
+    {
+      "offset_mm": 10.0,
+      "n": 144,
+      "site_residual_mm_median": 0.2393675572577902,
+      "site_loo_residual_mm_median": 9.903261477284692,
+      "neighbour_residual_mm_median": 0.39581102939399315,
+      "detect_deployed": 0.22916666666666666,
+      "detect_guarded": 0.0,
+      "detect_loo": 0.0,
+      "detect_loo_raw": 0.0
+    },
+    {
+      "offset_mm": 20.0,
+      "n": 144,
+      "site_residual_mm_median": 0.23525468980279468,
+      "site_loo_residual_mm_median": 19.843407812625863,
+      "neighbour_residual_mm_median": 0.3589388296467967,
+      "detect_deployed": 0.034722222222222224,
+      "detect_guarded": 0.0,
+      "detect_loo": 0.0,
+      "detect_loo_raw": 0.0
+    },
+    {
+      "offset_mm": 40.0,
+      "n": 144,
+      "site_residual_mm_median": 0.15295541435253418,
+      "site_loo_residual_mm_median": 39.53194329835053,
+      "neighbour_residual_mm_median": 0.3104490157475609,
+      "detect_deployed": 0.020833333333333332,
+      "detect_guarded": 0.0,
+      "detect_loo": 0.75,
+      "detect_loo_raw": 0.75
+    },
+    {
+      "offset_mm": 80.0,
+      "n": 144,
+      "site_residual_mm_median": 0.11807248746186443,
+      "site_loo_residual_mm_median": 78.5526108821898,
+      "neighbour_residual_mm_median": 0.19235791597846486,
+      "detect_deployed": 0.0763888888888889,
+      "detect_guarded": 0.0,
+      "detect_loo": 1.0,
+      "detect_loo_raw": 1.0
+    }
+  ],
+  "sweeps": {
+    "deployed  in sample z>1.5, std floor 0.1 px, no mm guard": [
+      {
+        "z": 1.0,
+        "fp_rate": 0.18745938921377517,
+        "fp_study_rate": 1.0,
+        "single level shift": 0.33564814814814814,
+        "adjacent swap": 0.47453703703703703,
+        "whole column off by one": 1.0,
+        "lateral 10 mm (control)": 0.2523148148148148
+      },
+      {
+        "z": 1.25,
+        "fp_rate": 0.14831059129304744,
+        "fp_study_rate": 1.0,
+        "single level shift": 0.2777777777777778,
+        "adjacent swap": 0.4212962962962963,
+        "whole column off by one": 0.9976851851851852,
+        "lateral 10 mm (control)": 0.24768518518518517
+      },
+      {
+        "z": 1.5,
+        "fp_rate": 0.1089993502274204,
+        "fp_study_rate": 0.9699074074074074,
+        "single level shift": 0.2175925925925926,
+        "adjacent swap": 0.3402777777777778,
+        "whole column off by one": 0.9699074074074074,
+        "lateral 10 mm (control)": 0.23148148148148148
+      },
+      {
+        "z": 1.75,
+        "fp_rate": 0.07472384665367121,
+        "fp_study_rate": 0.8518518518518519,
+        "single level shift": 0.16898148148148148,
+        "adjacent swap": 0.23148148148148148,
+        "whole column off by one": 0.8287037037037037,
+        "lateral 10 mm (control)": 0.14351851851851852
+      },
+      {
+        "z": 2.0,
+        "fp_rate": 0.0440220922677063,
+        "fp_study_rate": 0.5694444444444444,
+        "single level shift": 0.11574074074074074,
+        "adjacent swap": 0.12962962962962962,
+        "whole column off by one": 0.6087962962962963,
+        "lateral 10 mm (control)": 0.05324074074074074
+      },
+      {
+        "z": 2.25,
+        "fp_rate": 0.021280051981806367,
+        "fp_study_rate": 0.29398148148148145,
+        "single level shift": 0.05092592592592592,
+        "adjacent swap": 0.05092592592592592,
+        "whole column off by one": 0.3194444444444444,
+        "lateral 10 mm (control)": 0.016203703703703703
+      },
+      {
+        "z": 2.5,
+        "fp_rate": 0.007797270955165692,
+        "fp_study_rate": 0.1111111111111111,
+        "single level shift": 0.018518518518518517,
+        "adjacent swap": 0.016203703703703703,
+        "whole column off by one": 0.1527777777777778,
+        "lateral 10 mm (control)": 0.004629629629629629
+      },
+      {
+        "z": 2.75,
+        "fp_rate": 0.0022742040285899934,
+        "fp_study_rate": 0.032407407407407406,
+        "single level shift": 0.0023148148148148147,
+        "adjacent swap": 0.011574074074074073,
+        "whole column off by one": 0.05324074074074074,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 3.0,
+        "fp_rate": 0.0003248862897985705,
+        "fp_study_rate": 0.004629629629629629,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0023148148148148147,
+        "whole column off by one": 0.006944444444444444,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 3.25,
+        "fp_rate": 0.00016244314489928524,
+        "fp_study_rate": 0.0023148148148148147,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.004629629629629629,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 3.5,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.0023148148148148147,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 3.75,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.0023148148148148147,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 4.0,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.0,
+        "lateral 10 mm (control)": 0.0
+      }
+    ],
+    "loo raw   leave one out z>1.5, std floor 1.0 px, no mm guard": [
+      {
+        "z": 1.0,
+        "fp_rate": 0.22851153039832284,
+        "fp_study_rate": 1.0,
+        "single level shift": 0.75,
+        "adjacent swap": 0.5,
+        "whole column off by one": 1.0,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 1.25,
+        "fp_rate": 0.19007686932215234,
+        "fp_study_rate": 1.0,
+        "single level shift": 0.75,
+        "adjacent swap": 0.49074074074074076,
+        "whole column off by one": 1.0,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 1.5,
+        "fp_rate": 0.1444793850454228,
+        "fp_study_rate": 0.9907407407407407,
+        "single level shift": 0.75,
+        "adjacent swap": 0.13657407407407407,
+        "whole column off by one": 0.75,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 1.75,
+        "fp_rate": 0.09276729559748427,
+        "fp_study_rate": 0.5023148148148148,
+        "single level shift": 0.6018518518518519,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.5439814814814815,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 2.0,
+        "fp_rate": 0.04350104821802935,
+        "fp_study_rate": 0.3263888888888889,
+        "single level shift": 0.4976851851851852,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.4976851851851852,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 2.25,
+        "fp_rate": 0.03651292802236199,
+        "fp_study_rate": 0.25,
+        "single level shift": 0.2569444444444444,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.25,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 2.5,
+        "fp_rate": 0.010656883298392733,
+        "fp_study_rate": 0.1412037037037037,
+        "single level shift": 0.25,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.25,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 2.75,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.13425925925925927,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.08796296296296297,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 3.0,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.0,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 3.25,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.0,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 3.5,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.0,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 3.75,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.0,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 4.0,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.0,
+        "lateral 10 mm (control)": 0.0
+      }
+    ],
+    "loo       leave one out z>1.5, std floor 1.0 px, min residual 3.0 mm": [
+      {
+        "z": 1.0,
+        "fp_rate": 0.22851153039832284,
+        "fp_study_rate": 1.0,
+        "single level shift": 0.75,
+        "adjacent swap": 0.5,
+        "whole column off by one": 1.0,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 1.25,
+        "fp_rate": 0.19007686932215234,
+        "fp_study_rate": 1.0,
+        "single level shift": 0.75,
+        "adjacent swap": 0.49074074074074076,
+        "whole column off by one": 1.0,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 1.5,
+        "fp_rate": 0.1444793850454228,
+        "fp_study_rate": 0.9907407407407407,
+        "single level shift": 0.75,
+        "adjacent swap": 0.13657407407407407,
+        "whole column off by one": 0.75,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 1.75,
+        "fp_rate": 0.09276729559748427,
+        "fp_study_rate": 0.5023148148148148,
+        "single level shift": 0.6018518518518519,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.5439814814814815,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 2.0,
+        "fp_rate": 0.04350104821802935,
+        "fp_study_rate": 0.3263888888888889,
+        "single level shift": 0.4976851851851852,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.4976851851851852,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 2.25,
+        "fp_rate": 0.03651292802236199,
+        "fp_study_rate": 0.25,
+        "single level shift": 0.2569444444444444,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.25,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 2.5,
+        "fp_rate": 0.010656883298392733,
+        "fp_study_rate": 0.1412037037037037,
+        "single level shift": 0.25,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.25,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 2.75,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.13425925925925927,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.08796296296296297,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 3.0,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.0,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 3.25,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.0,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 3.5,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.0,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 3.75,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.0,
+        "lateral 10 mm (control)": 0.0
+      },
+      {
+        "z": 4.0,
+        "fp_rate": 0.0,
+        "fp_study_rate": 0.0,
+        "single level shift": 0.0,
+        "adjacent swap": 0.0,
+        "whole column off by one": 0.0,
+        "lateral 10 mm (control)": 0.0
+      }
+    ]
+  }
+}

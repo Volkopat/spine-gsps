@@ -1,0 +1,334 @@
+{
+  "run_dir": "<path>\\runs\\verse_batch_01",
+  "tolerance_mm": 20.0,
+  "n_cases": 155,
+  "n_predicted": 2241,
+  "n_matched": 1845,
+  "n_wrong": 373,
+  "skipped": {
+    "step1_no_landmark": 45,
+    "step2_no_landmark": 2
+  },
+  "arms": {
+    "region_retired": {
+      "auc": 0.5159628526051987,
+      "ci95": [
+        0.482968656102428,
+        0.5489570491079694
+      ],
+      "n_wrong": 373,
+      "n_right": 1472,
+      "n_undefined": 0,
+      "mean_wrong": 0.30492963139142387,
+      "mean_right": 0.3330604247155699,
+      "auc_common": 0.5185048971805688,
+      "ci95_common": [
+        0.4853124731345915,
+        0.5516973212265461
+      ],
+      "ci95_clustered": [
+        0.4785298120064516,
+        0.5525359139518293
+      ]
+    },
+    "parity_name": {
+      "auc": 0.5721872091921741,
+      "ci95": [
+        0.538702818524411,
+        0.6056715998599372
+      ],
+      "n_wrong": 369,
+      "n_right": 1459,
+      "n_undefined": 17,
+      "mean_wrong": 0.44790264684156517,
+      "mean_right": 0.5983390986221826,
+      "auc_common": 0.5721872091921741,
+      "ci95_common": [
+        0.538702818524411,
+        0.6056715998599372
+      ],
+      "ci95_clustered": [
+        0.479580104089183,
+        0.6606214449687696
+      ]
+    },
+    "parity_region_deployed": {
+      "auc": 0.42658308077864554,
+      "ci95": [
+        0.39517360932787404,
+        0.45799255222941704
+      ],
+      "n_wrong": 373,
+      "n_right": 1472,
+      "n_undefined": 0,
+      "mean_wrong": 0.5314994552414106,
+      "mean_right": 0.4422815081546578,
+      "auc_common": 0.4249615971142576,
+      "ci95_common": [
+        0.3934303988264275,
+        0.45649279540208776
+      ],
+      "ci95_clustered": [
+        0.3417857820904145,
+        0.5162402527506799
+      ]
+    },
+    "parity_sequence": {
+      "auc": 0.4813534502855811,
+      "ci95": [
+        0.4488174534228184,
+        0.5138894471483437
+      ],
+      "n_wrong": 373,
+      "n_right": 1472,
+      "n_undefined": 0,
+      "mean_wrong": 0.20316680592885938,
+      "mean_right": 0.326208542107637,
+      "auc_common": 0.4814319493434825,
+      "ci95_common": [
+        0.4487252945951354,
+        0.5141386040918297
+      ],
+      "ci95_clustered": [
+        0.3978452019758757,
+        0.5622127362351771
+      ]
+    },
+    "parity_sequence_inverted": {
+      "auc": 0.4883153995220888,
+      "ci95": [
+        0.45567133623818934,
+        0.5209594628059883
+      ],
+      "n_wrong": 373,
+      "n_right": 1472,
+      "n_undefined": 0,
+      "mean_wrong": 0.7762291711514033,
+      "mean_right": 0.6541578836588146,
+      "auc_common": 0.48644429213312007,
+      "ci95_common": [
+        0.45365861693747583,
+        0.5192299673287644
+      ],
+      "ci95_clustered": [
+        0.412596416245362,
+        0.5740724641045455
+      ]
+    },
+    "parity_sequence_phased": {
+      "auc": 0.5807986799160741,
+      "ci95": [
+        0.5474886329793789,
+        0.6141087268527694
+      ],
+      "n_wrong": 373,
+      "n_right": 1472,
+      "n_undefined": 0,
+      "mean_wrong": 0.9626093196972416,
+      "mean_right": 0.9750816231582544,
+      "auc_common": 0.5789576333049142,
+      "ci95_common": [
+        0.5454718430558466,
+        0.6124434235539818
+      ],
+      "ci95_clustered": [
+        0.5307137131964094,
+        0.6408124628400849
+      ]
+    },
+    "mapping_free_top1": {
+      "auc": 0.5759366986245483,
+      "ci95": [
+        0.5426252066355253,
+        0.6092481906135714
+      ],
+      "n_wrong": 373,
+      "n_right": 1472,
+      "n_undefined": 0,
+      "mean_wrong": 0.9574333297587131,
+      "mean_right": 0.9635634925271739,
+      "auc_common": 0.5753374531689114,
+      "ci95_common": [
+        0.5418514067086226,
+        0.6088234996292001
+      ],
+      "ci95_clustered": [
+        0.5229616876829863,
+        0.6359789451182737
+      ]
+    },
+    "mapping_free_margin": {
+      "auc": 0.4860742802191398,
+      "ci95": [
+        0.45346413466241203,
+        0.5186844257758675
+      ],
+      "n_wrong": 373,
+      "n_right": 1472,
+      "n_undefined": 0,
+      "mean_wrong": 0.007034356568364609,
+      "mean_right": 0.00414808695652174,
+      "auc_common": 0.4862836222604858,
+      "ci95_common": [
+        0.45350041563500687,
+        0.5190668288859648
+      ],
+      "ci95_clustered": [
+        0.4353946570255909,
+        0.5356443775313987
+      ]
+    },
+    "argmax_mean": {
+      "auc": 0.5787788495162607,
+      "ci95": [
+        0.5454676976444751,
+        0.6120900013880463
+      ],
+      "n_wrong": 373,
+      "n_right": 1472,
+      "n_undefined": 0,
+      "mean_wrong": 0.9758250242916461,
+      "mean_right": 0.9794226950626416,
+      "auc_common": 0.5786957321252445,
+      "ci95_common": [
+        0.545209845687938,
+        0.612181618562551
+      ],
+      "ci95_clustered": [
+        0.5268759713324003,
+        0.6389576121145802
+      ]
+    },
+    "_common_subset_n": 1828,
+    "_cluster_bootstrap": {
+      "region_retired": {
+        "lo": 0.4785298120064516,
+        "hi": 0.5525359139518293,
+        "reps": 2000
+      },
+      "parity_name": {
+        "lo": 0.479580104089183,
+        "hi": 0.6606214449687696,
+        "reps": 2000
+      },
+      "parity_region_deployed": {
+        "lo": 0.3417857820904145,
+        "hi": 0.5162402527506799,
+        "reps": 2000
+      },
+      "parity_sequence": {
+        "lo": 0.3978452019758757,
+        "hi": 0.5622127362351771,
+        "reps": 2000
+      },
+      "parity_sequence_inverted": {
+        "lo": 0.412596416245362,
+        "hi": 0.5740724641045455,
+        "reps": 2000
+      },
+      "parity_sequence_phased": {
+        "lo": 0.5307137131964094,
+        "hi": 0.6408124628400849,
+        "reps": 2000
+      },
+      "mapping_free_top1": {
+        "lo": 0.5229616876829863,
+        "hi": 0.6359789451182737,
+        "reps": 2000
+      },
+      "mapping_free_margin": {
+        "lo": 0.4353946570255909,
+        "hi": 0.5356443775313987,
+        "reps": 2000
+      },
+      "argmax_mean": {
+        "lo": 0.5268759713324003,
+        "hi": 0.6389576121145802,
+        "reps": 2000
+      },
+      "_delta_phased_minus_published": {
+        "lo": -0.0038457803317871685,
+        "hi": 0.14425172761823613,
+        "reps": 2000,
+        "p_le_zero": 0.0315
+      }
+    },
+    "_oracles": {
+      "best_fixed_channel": {
+        "auc": 0.5655597971791584,
+        "channel": 5,
+        "exact_bound": true,
+        "n_pos": 373,
+        "n_neg": 1472,
+        "per_channel": {
+          "0": 0.5090974326844621,
+          "1": 0.40082978785406226,
+          "2": 0.36429070987294554,
+          "3": 0.373156836461126,
+          "4": 0.40148819063993474,
+          "5": 0.5655597971791584,
+          "6": 0.48770526139410186,
+          "7": 0.4745827383727707,
+          "8": 0.4404268417064926,
+          "9": 0.4731958124490034,
+          "10": 0.3638308296421494
+        }
+      },
+      "best_name_mapping": {
+        "auc": 0.6346247013055135,
+        "exact_bound": false,
+        "n_levels": 26,
+        "n_starts": 11,
+        "n_pos": 373,
+        "n_neg": 1472,
+        "mapping": {
+          "C1": 6,
+          "C2": 7,
+          "C3": 6,
+          "C4": 7,
+          "C5": 6,
+          "C6": 3,
+          "C7": 10,
+          "L1": 8,
+          "L2": 4,
+          "L3": 8,
+          "L4": 3,
+          "L5": 6,
+          "L6": 7,
+          "SACRUM": 10,
+          "T1": 5,
+          "T10": 6,
+          "T11": 0,
+          "T12": 9,
+          "T2": 5,
+          "T3": 7,
+          "T4": 6,
+          "T5": 5,
+          "T6": 6,
+          "T7": 5,
+          "T8": 6,
+          "T9": 5
+        }
+      },
+      "null_search_auc": {
+        "reps": 1000,
+        "mean": 0.5941909413611727,
+        "max": 0.6287928735866651,
+        "p95": 0.6110517870672573,
+        "note": "same search, labels shuffled. This is what the search reaches on no signal at all, so it is the optimism floor for best_name_mapping."
+      },
+      "best_name_mapping_heldout": {
+        "folds": 40,
+        "mean": 0.5703529853849982,
+        "sd": 0.03265172127777578,
+        "note": "mapping fitted on half the CASES and scored on the other half, both directions, repeated. This is what a per-level mapping is actually worth. Split by case because vertebrae within a case are correlated."
+      },
+      "best_fixed_channel_heldout": {
+        "folds": 40,
+        "mean": 0.549564036832259,
+        "sd": 0.04390421040060678,
+        "note": "the same split-half treatment for the one-parameter choice, so the two ceilings are comparable and neither is quoted in sample only."
+      }
+    }
+  }
+}
