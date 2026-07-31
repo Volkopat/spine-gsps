@@ -1,8 +1,6 @@
 # spine-gsps
 
-Evaluation harness for *"Delivered, accepted, non-conformant: interoperability
-and AI governance of an automated quality signal in a deployed clinical
-service."*
+Evaluation harness for *"Separating conformance from trustworthiness: an end-to-end audit, and five checks, for an AI result delivered into a clinical archive."*
 
 Every number in the article has a row in [`docs/CLAIMS.md`](docs/CLAIMS.md)
 giving its status, the command that produces it, and its source file. That

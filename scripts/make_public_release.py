@@ -111,7 +111,7 @@ organisers' own code and not by ours.
 # rather than to the author. These two files fix that for every future release.
 ZENODO_JSON = """{
   "title": "spine-gsps: evaluation harness for a deployed DICOM spine-labelling service",
-  "description": "Evaluation harness accompanying the article \\"Delivered, accepted, non-conformant: interoperability and AI governance of an automated quality signal in a deployed clinical service\\". Every number in the article has a row in docs/CLAIMS.md recording its status, the command that produces it, and its source, including twenty-one retired claims.",
+  "description": "Evaluation harness accompanying the article \\"Separating conformance from trustworthiness: an end-to-end audit, and five checks, for an AI result delivered into a clinical archive\\". Every number in the article has a row in docs/CLAIMS.md recording its status, the command that produces it, and its source, including twenty-one retired claims.",
   "license": "mit",
   "upload_type": "software",
   "creators": [
@@ -140,7 +140,7 @@ authors:
     affiliation: "University at Buffalo School of Management, Buffalo, NY, USA"
 preferred-citation:
   type: article
-  title: "Delivered, accepted, non-conformant: interoperability and AI governance of an automated quality signal in a deployed clinical service"
+  title: "Separating conformance from trustworthiness: an end-to-end audit, and five checks, for an AI result delivered into a clinical archive"
   authors:
     - family-names: Patil
       given-names: Digvijay
@@ -150,9 +150,7 @@ preferred-citation:
 
 README = """# spine-gsps
 
-Evaluation harness for *"Delivered, accepted, non-conformant: interoperability
-and AI governance of an automated quality signal in a deployed clinical
-service."*
+Evaluation harness for *"Separating conformance from trustworthiness: an end-to-end audit, and five checks, for an AI result delivered into a clinical archive."*
 
 Every number in the article has a row in [`docs/CLAIMS.md`](docs/CLAIMS.md)
 giving its status, the command that produces it, and its source file. That

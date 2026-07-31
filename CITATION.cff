@@ -10,7 +10,7 @@ authors:
     affiliation: "University at Buffalo School of Management, Buffalo, NY, USA"
 preferred-citation:
   type: article
-  title: "Delivered, accepted, non-conformant: interoperability and AI governance of an automated quality signal in a deployed clinical service"
+  title: "Separating conformance from trustworthiness: an end-to-end audit, and five checks, for an AI result delivered into a clinical archive"
   authors:
     - family-names: Patil
       given-names: Digvijay

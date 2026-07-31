@@ -174,7 +174,7 @@ def main(argv=None) -> int:
     appf = appf.replace("## Appendix F. Reporting-guideline statement",
                         "# Machine Learning checklist and reporting-guideline statement\n\n"
                         "*Supplementary material accompanying the manuscript "
-                        "\"Delivered, accepted, non-conformant\". This reproduces "
+                        "\"Separating conformance from trustworthiness\". This reproduces "
                         "Appendix F of the manuscript as a standalone file, per the "
                         "journal's requirement that the checklist be submitted as "
                         "supplementary material.*")
