@@ -92,9 +92,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+"""
+
+# Kept out of LICENSE: GitHub's licence detector reads any trailing prose as a
+# modification and labels the repository "Other" instead of MIT.
+NOTICE = """Third-party code
+================
 
 The VerSe evaluation code under `src/spinelab/eval/` is vendored from
-github.com/anjany/verse and carries its own MIT licence, reproduced there.
+github.com/anjany/verse and carries its own MIT licence, reproduced alongside
+it. It is used byte-identically rather than reimplemented, so that vertebral
+identification in the accompanying article is scored by the benchmark
+organisers' own code and not by ours.
 """
 
 README = """# spine-gsps
@@ -239,6 +248,7 @@ def main(argv=None) -> int:
         kept += ["results/figures/" + p.name for p in sorted(figs.iterdir())]
 
     (out / "LICENSE").write_text(LICENSE, encoding="utf-8")
+    (out / "NOTICE").write_text(NOTICE, encoding="utf-8")
     (out / "README.md").write_text(README, encoding="utf-8")
 
     print("  kept    %d files" % len(kept))

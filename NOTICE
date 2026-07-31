@@ -1,0 +1,8 @@
+Third-party code
+================
+
+The VerSe evaluation code under `src/spinelab/eval/` is vendored from
+github.com/anjany/verse and carries its own MIT licence, reproduced alongside
+it. It is used byte-identically rather than reimplemented, so that vertebral
+identification in the accompanying article is scored by the benchmark
+organisers' own code and not by ours.
