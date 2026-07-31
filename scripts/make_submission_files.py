@@ -132,7 +132,15 @@ def main(argv=None) -> int:
     # is exactly what happens when you are looking at the output between builds.
     out = Path(a.out)
     for child in sorted(out.glob("*"), reverse=True) if out.exists() else []:
-        shutil.rmtree(child) if child.is_dir() else child.unlink()
+        try:
+            shutil.rmtree(child) if child.is_dir() else child.unlink()
+        except PermissionError:
+            # Word holds an exclusive lock on an open .docx. Say so, rather than
+            # emitting a traceback that looks like a bug in the build.
+            print("CANNOT WRITE: %s is open in another program (Word locks an open\n"
+                  ".docx). Close it and re-run; nothing has been changed."
+                  % child.name)
+            raise SystemExit(1)
     (out / "figures").mkdir(parents=True, exist_ok=True)
 
     draft = "DRAFT_" if found else ""

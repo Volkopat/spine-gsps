@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article it accompanies."
+title: "spine-gsps: evaluation harness for a deployed DICOM spine-labelling service"
+version: 1.0.1
+license: MIT
+authors:
+  - family-names: Patil
+    given-names: Digvijay
+    orcid: "https://orcid.org/0009-0003-6878-1712"
+    affiliation: "University at Buffalo School of Management, Buffalo, NY, USA"
+preferred-citation:
+  type: article
+  title: "Delivered, accepted, non-conformant: interoperability and AI governance of an automated quality signal in a deployed clinical service"
+  authors:
+    - family-names: Patil
+      given-names: Digvijay
+      orcid: "https://orcid.org/0009-0003-6878-1712"
+  year: 2026

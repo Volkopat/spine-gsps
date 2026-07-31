@@ -106,6 +106,48 @@ identification in the accompanying article is scored by the benchmark
 organisers' own code and not by ours.
 """
 
+# Zenodo takes its metadata from the GitHub account unless the repository says
+# otherwise, so the first archived version was credited to the account handle
+# rather than to the author. These two files fix that for every future release.
+ZENODO_JSON = """{
+  "title": "spine-gsps: evaluation harness for a deployed DICOM spine-labelling service",
+  "description": "Evaluation harness accompanying the article \\"Delivered, accepted, non-conformant: interoperability and AI governance of an automated quality signal in a deployed clinical service\\". Every number in the article has a row in docs/CLAIMS.md recording its status, the command that produces it, and its source, including twenty-one retired claims.",
+  "license": "mit",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Patil, Digvijay",
+      "affiliation": "University at Buffalo School of Management, Buffalo, NY, USA",
+      "orcid": "0009-0003-6878-1712"
+    }
+  ],
+  "keywords": [
+    "DICOM", "health information interoperability", "artificial intelligence governance",
+    "grayscale softcopy presentation state", "conformance", "quality assurance"
+  ]
+}
+"""
+
+CITATION_CFF = """cff-version: 1.2.0
+message: "If you use this software, please cite the article it accompanies."
+title: "spine-gsps: evaluation harness for a deployed DICOM spine-labelling service"
+version: 1.0.1
+license: MIT
+authors:
+  - family-names: Patil
+    given-names: Digvijay
+    orcid: "https://orcid.org/0009-0003-6878-1712"
+    affiliation: "University at Buffalo School of Management, Buffalo, NY, USA"
+preferred-citation:
+  type: article
+  title: "Delivered, accepted, non-conformant: interoperability and AI governance of an automated quality signal in a deployed clinical service"
+  authors:
+    - family-names: Patil
+      given-names: Digvijay
+      orcid: "https://orcid.org/0009-0003-6878-1712"
+  year: 2026
+"""
+
 README = """# spine-gsps
 
 Evaluation harness for *"Delivered, accepted, non-conformant: interoperability
@@ -249,6 +291,8 @@ def main(argv=None) -> int:
 
     (out / "LICENSE").write_text(LICENSE, encoding="utf-8")
     (out / "NOTICE").write_text(NOTICE, encoding="utf-8")
+    (out / ".zenodo.json").write_text(ZENODO_JSON, encoding="utf-8")
+    (out / "CITATION.cff").write_text(CITATION_CFF, encoding="utf-8")
     (out / "README.md").write_text(README, encoding="utf-8")
 
     print("  kept    %d files" % len(kept))
