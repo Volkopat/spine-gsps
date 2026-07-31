@@ -43,7 +43,6 @@ anything already running.
 | Orthanc HTTP | 8142 | 8042 | 8042 |
 | Orthanc DICOM SCP | 4342 | 4242 | 4242 |
 | OHIF standalone | 3110 | 8080 | 3000 |
-| MedDream, `licensed` profile only | 8180 | 8080 | 8080 |
 
 Orthanc's application entity title is `SPINEBENCH`, so a C-STORE test is
 

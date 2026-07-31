@@ -13,7 +13,7 @@
 #   http://localhost:3110/                       OHIF v3 standalone, upstream image
 #
 # One further viewer is defined behind the "licensed" profile and is NOT started
-# by plain `up`, see the meddream service at the bottom of this file.
+# by plain `up`. No commercial viewer is part of this bench.
 #
 # Every published port is deliberately non default. Orthanc normally serves HTTP
 # on 8042 and DICOM on 4242, OHIF normally on 3000. Shifted to 8142, 4342 and
@@ -105,41 +105,9 @@ services:
       retries: 24
       start_period: 5s
 
-  # MedDream, Softneta's viewer. Directly relevant because the 38 shipped GSPS
-  # objects declare Manufacturer "Softneta" and ManufacturerModelName "MedDream",
-  # so this is the one viewer that can say whether that identity is even coherent.
-  #
-  # NOT part of the default bench. It is commercial software behind a licence
-  # filter and it is in a non default compose profile for that reason:
-  #
-  #     docker compose --profile licensed up -d meddream
-  #
-  # Measured 2026-07-30 with no licence file present: the container starts, Tomcat
-  # comes up, GET / returns 200 with the landing page, and every functional request
-  # is then refused by com.softneta.meddream.md.auth.filter.LicencingFilter with
-  # HTTP 500. A human must obtain a trial licence from Softneta and mount it at
-  # /opt/meddream/license before this leg of the matrix can be scored.
-  #
-  # Two settings had to be overridden to get it to boot at all. The shipped
-  # application.properties includes the auth-his profile, which then aborts startup
-  # with "Missing property 'authentication.his.valid-his-params'". Passing that
-  # property as an environment variable with dots does not bind. Dropping the
-  # profile does work. The PACS block needs no change: its defaults already point
-  # at host "orthanc" port 8042, which is exactly this bench's service name.
-  meddream:
-    image: meddream/orthanc-dicom-viewer:8.9.0
-    container_name: gsps-bench-meddream
-    profiles: ["licensed"]
-    depends_on:
-      orthanc:
-        condition: service_started
-    ports:
-      - "8180:8080"
-    environment:
-      SPRING_PROFILES_INCLUDE: auth-inmemory
-    # Uncomment once a licence file exists on the host.
-    # volumes:
-    #   - ./meddream-license:/opt/meddream/license:ro
+  # The viewer whose vendor name the shipped objects declare is deliberately
+  # NOT in this bench. It is commercial and licence gated, no leg was ever scored
+  # against it, and no finding depends on it. See results/viewer_bench.md.
 
 volumes:
   orthanc-db:

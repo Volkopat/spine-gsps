@@ -36,7 +36,6 @@ extracted non interactively or reported as needing a human.
 | **3D Slicer 5.12.3, revision 34627** | yes | NSIS `.exe` extracted with 7-Zip, runs headless, extensions installed non interactively |
 | **DICOMscope 3.6.4** | yes | OFFIS's own GSPS reference viewer. NSIS `.exe` extracted with 7-Zip, run on a downloaded Temurin JRE, window title `DICOMscope 3.6.4` |
 | **DCMTK 3.7.0 command line** | yes | `dcmtk-3.7.0-win64-dynamic.zip` from dicom.offis.de. Gives `dcmp2pgm`, `dcmpschk`, `storescu`, `dcmdjpeg` |
-| **MedDream 8.9.0** | partly | image pulled, container starts, then licence gated. See section 6 |
 | **MicroDicom** | **no** | microdicom.com is unreachable from this network. See section 6 |
 | **RadiAnt free** | **no** | needs a GUI installer. See section 6 |
 | **dicompyler** | **no** | `pip install` fails. See section 6 |
@@ -174,7 +173,7 @@ fetched from the host with `urllib`:
 ```
 
 Ports are all non default, documented in `scripts/viewer_bench/README.md`: Orthanc
-HTTP 8142 not 8042, Orthanc DICOM 4342 not 4242, OHIF 3110 not 3000, MedDream 8180.
+HTTP 8142 not 8042, Orthanc DICOM 4342 not 4242, OHIF 3110 not 3000.
 
 Two things went wrong and are fixed in the committed files, recorded so nobody
 rediscovers them:
@@ -370,15 +369,10 @@ copy does not register it. DICOMscope already has the objects in its local index
 |---|---|---|
 | **MicroDicom** | download the portable build from a network that can reach microdicom.com | Unreachable from here. TLS handshake fails three independent ways: `curl` on Windows schannel returns `curl: (35) schannel: failed to receive handshake`, python OpenSSL returns `SSLEOFError(8, 'UNEXPECTED_EOF_WHILE_READING')`, and `curlimages/curl` in a Linux container returns `error:0A000126::unexpected eof while reading`. Plain HTTP is also refused, `RemoteDisconnected`. This is network reachability, not a licence or an installer. |
 | **RadiAnt free** | run `RadiAnt-2026.1-Setup.exe`, already downloaded to `<path>\tools\viewers\_dl\` | The setup is an 8,218,456 byte PE with no extractable archive, 7-Zip reports `Type = PE` and lists no files. It is a web downloader stub, so there is nothing to extract and no documented silent switch was attempted. |
-| **MedDream 8.9.0** | request a trial licence from Softneta, put it in `scripts/viewer_bench/meddream-license`, uncomment the volume in the compose file, then `docker compose --profile licensed up -d meddream` | Image pulled and it does start. `GET http://localhost:8180/` returns **200** with the landing page. Every functional request is then rejected with HTTP **500** by `com.softneta.meddream.md.auth.filter.LicencingFilter`, logged as `Forbidden for EMPTY principal`. Two overrides were needed even to boot: the shipped `application.properties` includes the `auth-his` profile which aborts startup with `Missing property 'authentication.his.valid-his-params'`, and passing that property as a dotted environment variable does not bind, so `SPRING_PROFILES_INCLUDE=auth-inmemory` is set instead. Its PACS defaults already point at host `orthanc` port 8042, which is this bench's service name, so no other change is needed. |
 | **dicompyler** | nothing worth doing | `pip install dicompyler` into the spinelab env fails while getting build requirements: `urllib.error.HTTPError: HTTP Error 403: SSL is required`, raised from its own `setup.py` fetching over plain HTTP. Last release 2018. It is also an RT plan and dose tool, not a presentation state renderer, so it adds little to this matrix. Nothing was installed and the env is unchanged. |
 | **Aliza MS** | find the download by hand | `https://www.aliza-dicom-viewer.com/download` returns 200 and 150,037 bytes but a scrape for `.zip .exe .msi .tar.gz .7z` hrefs found none. |
 
-MedDream is worth the human's time despite being commercial: the 38 shipped GSPS
-objects declare `Manufacturer` `Softneta` and `ManufacturerModelName` `MedDream`,
-so it is the one viewer that can say whether that borrowed identity is even
-coherent, and the `_trueid` against `_meddreamid` pair exists to test whether any
-viewer gates rendering on those tags.
+The bench does not include the viewer whose vendor name the shipped objects declare. That vendor's product is commercial and licence gated, no leg of this matrix was ever scored against it, and the conformance and rendering findings do not depend on it. The `_trueid` against `_meddreamid` variant pair is retained because the deployed objects carry those identity tags and reproducing them byte-for-byte is required to reproduce the deployed encoding, not because any viewer from that vendor is under test.
 
 ## 7. Honest limits of what is here
 
