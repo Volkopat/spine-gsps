@@ -248,6 +248,7 @@ def main(argv=None) -> int:
     # place rather than orphaning the repository that is about to be pushed.
     # git objects are read-only on Windows, so rmtree over them fails WinError 5.
     out = Path(a.out)
+    had_git = (out / ".git").is_dir()
     out.mkdir(parents=True, exist_ok=True)
     # dict.fromkeys, not list concatenation: on Windows glob("*") already
     # matches dotfiles, so adding glob(".*") deletes .gitignore twice.
@@ -255,6 +256,17 @@ def main(argv=None) -> int:
         if child.name == ".git":
             continue
         shutil.rmtree(child, ignore_errors=True) if child.is_dir() else child.unlink()
+    # The release repository has now been destroyed twice while this script was
+    # being written, and both times it was noticed only when a later push failed
+    # with "not a git repository". Once the history is gone the next `git init`
+    # silently starts an unrelated repository, so fail here instead.
+    if had_git and not (out / ".git").is_dir():
+        print("ABORTING: %s/.git existed before this build and does not now.\n"
+              "The release history has been destroyed. Restore it with:\n"
+              "  cd %s && git init -b main && git remote add origin <url>\n"
+              "  git fetch origin && git reset --soft origin/main && git add -A"
+              % (out, out))
+        return 1
 
     tracked = subprocess.run(["git", "ls-files"], cwd=str(REPO),
                              capture_output=True, text=True).stdout.split()
