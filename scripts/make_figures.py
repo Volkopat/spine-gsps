@@ -52,6 +52,10 @@ GOOD = "#0ca30c"    # status
 CRIT = "#d03b3b"    # status
 WARN = "#fab219"    # status
 
+# Elsevier's floor is 300 dpi for halftone and 500 for combination art. Figures 1
+# and 4 are combination: a CT raster with vector annotation over it.
+DPI = 600
+
 plt.rcParams.update({
     "figure.facecolor": SURFACE,
     "axes.facecolor": SURFACE,
@@ -101,9 +105,22 @@ def save(fig, stem: str):
     them repeating text the ledger had already retired.
     """
     FIGURES.mkdir(parents=True, exist_ok=True)
-    for ext, kw in (("pdf", {}), ("png", {"dpi": 300})):
+    # DPI is not cosmetic here. matplotlib rasterises imshow content at the SAVE
+    # dpi even when the container is PDF, and the pdf branch passed no dpi, so it
+    # fell through to rcParams["savefig.dpi"] = "figure" = 100. The CT panels were
+    # therefore resampled DOWN to whatever their axes box measures at 100 dpi:
+    # 158x199 in the InstanceNumber figure and 203x444 in the delivered-records
+    # figure, then stretched across ~480 and ~570 px of canvas. Roughly a third of
+    # the real pixels, which is exactly the blur that was visible. The pure vector
+    # panels were unaffected, which is why only the two with images looked soft.
+    #
+    # 600 exceeds Elsevier's 500 dpi floor for combination art. Both imshow calls
+    # use interpolation="nearest", so this replicates source pixels as blocks
+    # rather than smoothing them: no invented detail, and Figure 1's 16 grey
+    # levels, which are the finding at B15a, survive untouched.
+    for ext in ("pdf", "png"):
         p = FIGURES / ("%s.%s" % (stem, ext))
-        fig.savefig(p, bbox_inches="tight", **kw)
+        fig.savefig(p, bbox_inches="tight", dpi=DPI)
     plt.close(fig)
     # matplotlib writes RGBA even when the facecolor is opaque. An alpha channel
     # in a print figure is one more thing that can composite differently than it
@@ -115,7 +132,29 @@ def save(fig, stem: str):
             flat = Image.new("RGB", im.size, SURFACE)
             flat.paste(im, mask=im.split()[-1] if mode in ("RGBA", "LA") else None)
             flat.save(png)
-    print("  wrote %s.pdf and .png (%s -> RGB)" % (stem, mode))
+    raster = _embedded_raster(FIGURES / ("%s.pdf" % stem))
+    print("  wrote %s.pdf and .png at %d dpi (%s -> RGB)%s"
+          % (stem, DPI, mode,
+             ", embedded raster %s" % raster if raster else ", pure vector"))
+
+
+def _embedded_raster(pdf: Path):
+    """Report the largest raster actually embedded in the PDF.
+
+    Reported rather than assumed, because the whole defect was that nobody
+    looked: the figures had shipped for four rounds at 100 dpi and the number
+    was never printed anywhere.
+    """
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        return None
+    try:
+        sizes = [im.image.size for page in PdfReader(str(pdf)).pages
+                 for im in page.images]
+    except Exception:
+        return None
+    return "x".join(map(str, max(sizes, key=lambda s: s[0] * s[1]))) if sizes else None
 
 
 def load(name):
@@ -557,7 +596,7 @@ def fig6_instance_number():
     # byte-identity note at figure-fraction 0.035; both landed on the caption, and the
     # two-line title of (b) collided with the suptitle. Hashes are now xlabels, so
     # matplotlib reserves the space, and the identity note rides above the panels.
-    fig = plt.figure(figsize=(7.0, 3.1))
+    fig = plt.figure(figsize=(7.0, 5.0))
     gs = fig.add_gridspec(1, 3, width_ratios=[1, 1, 1], wspace=0.22,
                           top=0.80, bottom=0.16)
 
@@ -565,17 +604,21 @@ def fig6_instance_number():
     axa.add_patch(plt.Rectangle((0, 0), 1, 1, facecolor="#fbe9e9", edgecolor=CRIT,
                                 linewidth=1.2, hatch="///"))
     # solid plate behind the text: the hatch ran straight through it before
-    axa.add_patch(plt.Rectangle((0.06, 0.30), 0.88, 0.40, facecolor=SURFACE,
+    axa.add_patch(plt.Rectangle((0.02, 0.33), 0.96, 0.34, facecolor=SURFACE,
                                 edgecolor="none", zorder=2))
-    axa.text(0.5, 0.615, "no output", ha="center", va="center", fontsize=11.5,
+    axa.text(0.5, 0.605, "no output", ha="center", va="center", fontsize=10.5,
              color=CRIT, fontweight="bold", zorder=3)
-    axa.text(0.5, 0.505, "0 bytes written", ha="center", va="center", fontsize=8,
+    axa.text(0.5, 0.512, "0 bytes written", ha="center", va="center", fontsize=7.5,
              color=INK2, zorder=3)
-    axa.text(0.5, 0.385, "W: instanceNumber absent\nor empty in presentation state",
-             ha="center", va="center", fontsize=6.2, color=INK2, style="italic",
+    axa.text(0.5, 0.408, "W: instanceNumber\nabsent or empty in\npresentation state",
+             ha="center", va="center", fontsize=6.0, color=INK2, style="italic",
              linespacing=1.4, zorder=3)
     axa.set_xlim(0, 1)
     axa.set_ylim(0, 1)
+    # Match the rendered panels' shape. Once (b) and (c) were corrected to the
+    # render's true 512 x 1119 aspect, a square placard beside them read as a
+    # third, differently shaped result rather than as the absence of one.
+    axa.set_aspect(ok.shape[0] / ok.shape[1])
     axa.set_xticks([])
     axa.set_yticks([])
     axa.set_title("(a) as deployed", fontsize=9)
@@ -587,7 +630,12 @@ def fig6_instance_number():
             (patched, "(b) + InstanceNumber (0020,0013)", h_patched),
             (ok, "(c) conformant emitter", h_ok))):
         ax = fig.add_subplot(gs[0, k + 1])
-        ax.imshow(img, cmap="gray", aspect="auto", interpolation="nearest")
+        # aspect="equal", NOT "auto". The cropped render is 512 x 1119, aspect
+        # 0.458, and "auto" stretched it to fill a near-square panel: the embedded
+        # raster came out at aspect 0.795, so the anatomy was 1.7 times too wide.
+        # A geometrically distorted CT in a paper about DICOM correctness is not a
+        # cosmetic problem, and no reader can tell it happened.
+        ax.imshow(img, cmap="gray", aspect="equal", interpolation="nearest")
         ax.set_xticks([])
         ax.set_yticks([])
         ax.set_title(lab, fontsize=9)
