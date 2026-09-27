@@ -25,14 +25,9 @@ REPO = Path(__file__).resolve().parents[1]
 DOCS = REPO / "docs"
 RESULTS = REPO / "results"
 
-# Deliverables only. CLAIMS.md and REVIEW_PACKET.md are exempt because recording a
-# retired number is precisely their job.
+# Deliverables only. CLAIMS.md is exempt because recording a retired number is
+# precisely its job.
 DELIVERABLES = [
-    # The IJMI package is the live submission. It goes FIRST because it is the
-    # document that will actually be read by an editor, and because the test suite
-    # guarding only the superseded SPIE artefacts would have been a guard pointed
-    # at the wrong target.
-    DOCS / "ijmi" / "submission.md",
     DOCS / "manuscript.md",
     DOCS / "spie2027" / "SUBMISSION.md",
     DOCS / "spie2027" / "supplemental.md",
@@ -358,51 +353,6 @@ def test_deliverables_do_not_contradict_a_measurement(needle, why):
                 hits.append("%s:%d" % (p.name, i))
     assert not hits, "%r contradicts a measurement (%s): %s" % (
         needle, why, ", ".join(hits))
-
-
-# --- IJMI's hard limits ----------------------------------------------------
-# Confirmed on the live guide for authors, retrieved 2026-07-31: the abstract "does
-# not exceed 300 words" and the AI clause states "the limit of 3,000 words on the
-# body of the manuscript". Both are enforced by the submission system, and round
-# four spent effort preparing to cut an abstract against a 250 limit that does not
-# exist. Measure, do not assume, in both directions.
-IJMI = DOCS / "ijmi" / "submission.md"
-
-
-def _ijmi_words(s):
-    """Elsevier convention: tables are not counted toward the body."""
-    s = re.sub(r"^\|.*$", "", s, flags=re.M)
-    return len(re.findall(r"\S+", re.sub(r"\*\*|\*|`|#", "", s)))
-
-
-def test_ijmi_body_is_within_three_thousand_words():
-    t = IJMI.read_text(encoding="utf-8")
-    n = _ijmi_words(t[t.index("## 1. Introduction"):
-                      t.index("## Declaration of competing interest")])
-    assert n <= 3000, "body is %d words, over the IJMI limit by %d" % (n, n - 3000)
-
-
-def test_ijmi_abstract_is_within_three_hundred_words():
-    """Counted INCLUDING the structured headings, which is the conservative reading.
-
-    Excluding them gives 291 and including them 296. The manifest reported one and
-    the review packet the other, which is how a single number came to disagree with
-    itself across two files in the same bundle. Test the larger.
-    """
-    t = IJMI.read_text(encoding="utf-8")
-    m = re.search(r"## Abstract\n(.*?)\n## ", t, re.S)
-    assert m, "no Abstract section"
-    n = _ijmi_words(m.group(1))
-    assert n <= 300, "abstract is %d words, over the IJMI limit by %d" % (n, n - 300)
-
-
-def test_ijmi_highlights_are_three_to_five_bullets_under_85_chars():
-    t = IJMI.read_text(encoding="utf-8")
-    blk = t[t.index("## Highlights"):t.index("## Summary Table")]
-    bullets = [l.strip()[2:].strip() for l in blk.splitlines() if l.strip().startswith("- ")]
-    assert 3 <= len(bullets) <= 5, "%d highlights, IJMI allows 3 to 5" % len(bullets)
-    over = ["%d chars: %s" % (len(b), b[:50]) for b in bullets if len(b) > 85]
-    assert not over, "over 85 characters including spaces:\n  " + "\n  ".join(over)
 
 
 def test_the_figure_panel_and_its_caption_agree_on_which_interval_is_drawn():

@@ -2,19 +2,8 @@
 
 > **SUPERSEDED, retained for provenance. Do not submit this file.**
 >
-> This is the SPIE-era working draft. The venue is now IJMI, and the live
-> disclosure is split across two places in `docs/ijmi/submission.md`, per
-> Elsevier's rule that the two kinds of use are declared separately:
->
-> - **Methods 2.5, "AI use in the research process"**, for the tool's role in
->   writing code, running experiments and analysing output.
-> - **"Declaration of generative AI in scientific writing", above the reference
->   list**, for the tool's role in preparing the prose.
->
-> The instruction below to insert the whole disclosure as a Methods subsection
-> is SPIE's rule and is **wrong for IJMI**, which wants the writing declaration
-> above References. The SPIE policy quotations, the note about the Lena test
-> image and item 4 of the author notes are all dead with the venue.
+> This is the SPIE-era working draft. The live disclosure is in the manuscript,
+> in its Methods and in its declarations.
 >
 > Two errors are left standing in the text below rather than corrected, because
 > a provenance record that has been quietly tidied is not a provenance record:
@@ -82,7 +71,7 @@ reader encounters it before the results.
 > organisers' own code, vendored rather than reimplemented. No metric in this paper is
 > computed by code the tool wrote for the purpose of computing that metric.
 >
-> Second, a regression suite of 267 tests encodes the project's factual constraints,
+> Second, a regression suite of 264 tests encodes the project's factual constraints,
 > including that the softmax channel table agrees with the model checkpoints' own
 > label definition. That suite detected two defects in tool-written code that had
 > already been committed: an ordinal table that assigned two adjacent vertebrae to the

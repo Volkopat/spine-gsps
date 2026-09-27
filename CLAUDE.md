@@ -265,28 +265,6 @@ SEG rendering support across viewers.** PubMed returns three records total for
 "Grayscale Softcopy Presentation State", none a viewer matrix. IHE AI Results
 Rev 1.3 explicitly excludes presentation states, which is the tension to argue.
 
-## Venue and deadline
-
-**International Journal of Medical Informatics** (Elsevier, ISSN 1386-5056), full
-original research. Fallback: Journal of Imaging Informatics in Medicine. Target
-submission **Monday 14 September 2026**. Full reasoning in `docs/TARGET.md`.
-
-Limits, all confirmed on the live guide for authors, retrieved 2026-07-31:
-
-- **Body 3000 words.** Abstract, references, tables and legends excluded.
-- **Abstract 300 words**, structured, but the guide prescribes no specific heading
-  set: only that it state the purpose, outline procedures, give main findings with
-  effect sizes, and give principal conclusions. It is **not** 250.
-- **Highlights** 3 to 5 bullets, 85 characters each including spaces.
-- **Keywords** 1 to 7.
-- Body and abstract counts are guarded by `tests/test_docs_consistency.py`, so a
-  limit breach is a red suite rather than a rejected upload.
-- **AI clause, and it can trigger desk rejection.** Papers on AI or machine
-  learning must submit IJMI's Machine Learning checklist as **supplementary
-  material**; manuscripts not conforming "may be returned without review". The
-  content is answered in the submission's Appendix F; the separate uploaded file
-  does not yet exist. See `docs/ijmi_requirements.md`.
-
 **SPIE Medical Imaging 2027 is abandoned and nothing was ever submitted to it.**
 SPIE will not publish a paper that is not presented, the author will not travel to
 Vancouver, and there is no remote or publication-only route. The 5 August 2026

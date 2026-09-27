@@ -14,8 +14,8 @@ must not be published, and rewriting HEAD would not remove them from history:
 
 Also excluded: the SPIE-era working drafts under `docs/spie2027/`, which are dead
 with the venue and name individuals in internal correspondence, and the scratch
-files. Two individuals named in `docs/TARGET.md` for an authorship-exclusion
-rationale are replaced by their roles; the reasoning does not need them.
+files. Submission-planning documents, venue-specific build scripts and
+correspondence with editors are not part of the harness and are not published.
 
 Scanned before it is written: a scan that runs over the OUTPUT, with patterns
 written separately from the redactor, so a redactor bug cannot pass its own check.
@@ -131,7 +131,7 @@ ZENODO_JSON = """{
 CITATION_CFF = """cff-version: 1.2.0
 message: "If you use this software, please cite the article it accompanies."
 title: "spine-gsps: evaluation harness for a deployed DICOM spine-labelling service"
-version: 1.0.1
+version: 1.0.2
 license: MIT
 authors:
   - family-names: Patil
