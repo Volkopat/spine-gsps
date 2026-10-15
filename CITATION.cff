@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the article it accompanies."
 title: "spine-gsps: evaluation harness for a deployed DICOM spine-labelling service"
-version: 1.0.2
+version: 1.1.0
 license: MIT
 authors:
   - family-names: Patil
@@ -10,7 +10,7 @@ authors:
     affiliation: "University at Buffalo School of Management, Buffalo, NY, USA"
 preferred-citation:
   type: article
-  title: "Separating conformance from trustworthiness: an end-to-end audit, and five checks, for an AI result delivered into a clinical archive"
+  title: "Separating conformance from trustworthiness: an audit of the delivery path, and eight checks, for an AI result sent to a clinical archive"
   authors:
     - family-names: Patil
       given-names: Digvijay

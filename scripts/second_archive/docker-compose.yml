@@ -1,0 +1,56 @@
+# spine-gsps second archive: dcm4chee-arc-light, for the major revision.
+#
+#   cd scripts/second_archive
+#   docker compose up -d        # first start takes a minute while LDAP and the database initialise
+#   docker compose down -v      # wipes the archive
+#
+# Reviewer 4 asked for "at least a second archive". The first is Orthanc 1.12.11
+# (scripts/viewer_bench). dcm4chee-arc-light is the other widely deployed open-source archive and
+# shares no code with Orthanc. Images pinned by tag to releases more than two weeks old on
+# 2026-10-14. Ports are non default, so nothing collides with a local PACS or the Orthanc bench:
+#
+#   http://localhost:8180/dcm4chee-arc/ui2/          archive UI
+#   http://localhost:8180/dcm4chee-arc/aets/DCM4CHEE/rs   DICOMweb (QIDO-RS, WADO-RS, STOW-RS)
+#   DICOM C-STORE: AE title DCM4CHEE, port 11212
+#
+# No clinical data is mounted or sent: only the public VerSe reconstructions.
+name: spine-gsps-dcm4chee
+services:
+  ldap:
+    image: dcm4che/slapd-dcm4chee:2.6.13-35.1
+    environment:
+      STORAGE_DIR: /storage/fs1
+    volumes:
+      - ldap:/var/lib/openldap/openldap-data
+      - slapd:/etc/openldap/slapd.d
+  db:
+    image: dcm4che/postgres-dcm4chee:17.9-35
+    environment:
+      POSTGRES_DB: pacsdb
+      POSTGRES_USER: pacs
+      POSTGRES_PASSWORD: pacs
+    volumes:
+      - db:/var/lib/postgresql/data
+  arc:
+    image: dcm4che/dcm4chee-arc-psql:5.35.1
+    ports:
+      - "8180:8080"
+      - "11212:11112"
+    environment:
+      POSTGRES_DB: pacsdb
+      POSTGRES_USER: pacs
+      POSTGRES_PASSWORD: pacs
+      WILDFLY_CHOWN: /storage
+      WILDFLY_WAIT_FOR: ldap:389 db:5432
+    depends_on:
+      - ldap
+      - db
+    volumes:
+      - wildfly:/opt/wildfly/standalone
+      - storage:/storage
+volumes:
+  ldap:
+  slapd:
+  db:
+  wildfly:
+  storage:

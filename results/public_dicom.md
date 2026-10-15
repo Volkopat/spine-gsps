@@ -203,7 +203,7 @@ Warning - Unrecognized defined term <REFORMATTED> for value 3 of attribute <Imag
 ```
 
 The 814 axial instances produce no diagnostic of any kind, not even the DICOMDIR
-warnings that all 38 shipped GSPS objects carry.
+warnings that every object the deployed emitter writes carries.
 
 ### The one remaining warning, and why it was chosen deliberately
 
@@ -252,7 +252,7 @@ Deliberately synthetic, and named so:
 | `DerivationDescription` | `VerSe CC BY-SA 4.0, converted from NIfTI by spinelab` |
 | `ImageComments` | `Source <original NIfTI filename>` |
 
-The caret delimited PatientName matters: the 38 shipped GSPS objects all draw
+The caret delimited PatientName matters: the deployed emitter's objects all draw
 `Value dubious for this VR - Retired Person Name form` because the anonymiser
 wrote a single component name. These do not.
 

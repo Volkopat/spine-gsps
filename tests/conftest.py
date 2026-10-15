@@ -27,6 +27,29 @@ if str(_SRC) not in sys.path:
 
 import pydicom  # noqa: E402
 from pydicom.dataset import Dataset  # noqa: E402
+
+# The public release leaves some files out (the manuscripts under review, and the write-ups
+# about the clinical material, ledger L0) and lists them in tests/release_excluded.txt. A test
+# whose FileNotFoundError names a listed file skips there, naming it. The working repository
+# has no such list, so a missing file there still fails.
+_EXCLUDED_LIST = Path(__file__).resolve().parent / "release_excluded.txt"
+_EXCLUDED = (tuple(l.strip() for l in _EXCLUDED_LIST.read_text(encoding="utf-8").splitlines() if l.strip())
+             if _EXCLUDED_LIST.exists() else ())
+
+
+@pytest.hookimpl(hookwrapper=True)
+def pytest_runtest_makereport(item, call):
+    outcome = yield
+    rep = outcome.get_result()
+    if not (_EXCLUDED and rep.when == "call" and rep.failed and call.excinfo is not None):
+        return
+    exc = call.excinfo.value
+    name = str(getattr(exc, "filename", "") or "").replace("\\", "/")
+    if isinstance(exc, FileNotFoundError) and any(
+            name.endswith("/" + e) or ("/" + e in name and e.endswith("/")) for e in _EXCLUDED):
+        rep.outcome = "skipped"
+        rep.longrepr = (str(item.fspath), item.location[1] or 0,
+                        "Skipped: %s is not part of the public release" % name)
 from pydicom.uid import ExplicitVRLittleEndian  # noqa: E402
 
 from spinelab.gsps import writer as W  # noqa: E402
@@ -66,8 +89,8 @@ LINE_STYLE_TYPE1_TAGS = (
     (0x0070, 0x0255),  # Line Pattern
 )
 
-# The six out-of-IOD attributes the text colour route drags in, measured on the
-# 38 shipped objects, see results/gsps_conformance_baseline.md. Format is the one
+# The six out-of-IOD attributes the text colour route drags in, measured on every
+# object the deployed emitter writes, see results/rev2_deployed_public.json. Format is the one
 # spinelab.gsps.validate stores, lowercased and without the surrounding brackets.
 TEXT_ROUTE_OUT_OF_IOD_TAGS = frozenset({
     "0x0070,0x0229",  # CSS Font Name

@@ -57,3 +57,9 @@ desktop.ini
 .idea/
 .vscode/
 *.swp
+
+# Submission TIFFs. Derived from the committed PNGs by scripts/make_figures.py, one
+# command, and 11 MB for the four the manuscript uses. The EPS files ARE committed:
+# they are vector, small, and are the submission artwork for the two figures that have
+# no raster in them.
+results/figures/*.tif

@@ -125,7 +125,7 @@ def build_gsps(image: Dataset, annotations: list[Annotation], v: Variant,
     ds.ContentDescription = ("Spine levels, %s" % v.label)[:64]
     # VR PN expects caret delimited components. A bare single token makes dciodvfy
     # report "Value dubious for this VR ... Retired Person Name form", which is the
-    # same complaint it raises about the deployed anonymiser's ANON_PAT_XXXX.
+    # same complaint it raises about the deployed emitter's single-token PatientName.
     ds.ContentCreatorName = "spinelab^"
     ds.PresentationLUTShape = "IDENTITY"
     ds.ImageHorizontalFlip = "N"

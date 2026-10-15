@@ -45,7 +45,7 @@ Also fixed: `RE_IOD` in `validate.py` required the IOD name to contain
 
 | object | dciodvfy errors | out of IOD attributes |
 |---|---|---|
-| shipped GSPS, 38 objects | 7 | 6 |
+| deployed emitter on public data, 155 objects (ledger L2) | 7 | 6 |
 | conformant GSPS variants | 1, an unevaluable `Laterality` conditional | 0 |
 | DICOM SEG, 12 objects | **0** | **0** |
 | generated CT instances, sample of 722 | **0** | **0** |

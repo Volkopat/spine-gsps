@@ -3,7 +3,9 @@
 > **SUPERSEDED, retained for provenance. Do not submit this file.**
 >
 > This is the SPIE-era working draft. The live disclosure is in the manuscript,
-> in its Methods and in its declarations.
+> in its Methods and in its declarations. The SPIE policy quotations, the note
+> about the Lena test image and item 4 of the author notes are all dead with the
+> venue.
 >
 > Two errors are left standing in the text below rather than corrected, because
 > a provenance record that has been quietly tidied is not a provenance record:
@@ -71,7 +73,7 @@ reader encounters it before the results.
 > organisers' own code, vendored rather than reimplemented. No metric in this paper is
 > computed by code the tool wrote for the purpose of computing that metric.
 >
-> Second, a regression suite of 264 tests encodes the project's factual constraints,
+> Second, a regression suite of 331 tests encodes the project's factual constraints,
 > including that the softmax channel table agrees with the model checkpoints' own
 > label definition. That suite detected two defects in tool-written code that had
 > already been committed: an ordinal table that assigned two adjacent vertebrae to the
@@ -79,7 +81,7 @@ reader encounters it before the results.
 > only as a warning and would have produced silently non-conformant objects.
 >
 > Third, every quantitative claim is recorded in a provenance ledger released with the
-> code, marking it as measured here, taken from the literature, or retired. twenty-one
+> code, marking it as measured here, taken from the literature, or retired. twenty-eight
 > claims are recorded as retired, including two carried over from an earlier abstract
 > by the author and one citation that does not exist as previously described. The
 > ledger exists because tool-assisted analysis produced several plausible intermediate

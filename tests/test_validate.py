@@ -2,8 +2,9 @@
 
 The parser is fed CAPTURED dciodvfy text, so these tests run on a machine
 without the binary. The fixture below is real output, taken verbatim on
-2026-07-30 from dicom3tools snapshot 20260701065818 run against
-`00001589_GSPS.dcm`, one of the 38 shipped objects. Only the repetition of the
+2026-10-15 from dicom3tools snapshot 20260701065818 run against
+`sub-gl003_dir-ax_0021_GSPS.dcm`, written by the deployed emitter, unmodified, on
+public VerSe data (`results/rev2_deployed_public.json`). Only the repetition of the
 text style warnings is shortened, and one repetition is kept because the
 per-file counting bug depended on exactly that repetition.
 
@@ -28,7 +29,7 @@ REAL_OUTPUT = """\
 Warning - Missing attribute or value that would be needed to build DICOMDIR - Study ID
 Warning - Missing attribute or value that would be needed to build DICOMDIR - Series Number
 Warning - Value dubious for this VR - (0x0010,0x0010) PN Patient's Name  PN [1] = \
-<ANON_PAT_XXXX> - Retired Person Name form
+<ANON_PAT_SUB-GL003_DIR-AX> - Retired Person Name form
 GrayscaleSoftcopyPresentationState
 Error - Missing attribute Type 1 Required Element=<FileMetaInformationGroupLength> \
 Module=<FileMetaInformation>

@@ -1,0 +1,542 @@
+{
+ "objects": {
+  "presentation_states": 9,
+  "ct_instances": 512
+ },
+ "archives": {
+  "orthanc": {
+   "config": {
+    "aet": "ORTHANCR1",
+    "port": 4343,
+    "rs": "http://localhost:8143/dicom-web"
+   },
+   "version": "1.12.11",
+   "ct_store": {
+    "sent": 512,
+    "success": 512,
+    "responses": [
+     "Success"
+    ]
+   },
+   "presentation_states": {
+    "asis_meddreamid": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [],
+      "top_level_changed": [],
+      "colour_sent": [
+       "TextColorCIELabValue"
+      ],
+      "colour_retrieved": [
+       "TextColorCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "asis_trueid": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [],
+      "top_level_changed": [],
+      "colour_sent": [
+       "TextColorCIELabValue"
+      ],
+      "colour_retrieved": [
+       "TextColorCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "colour_all": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [],
+      "top_level_changed": [],
+      "colour_sent": [
+       "TextColorCIELabValue",
+       "PatternOnColorCIELabValue",
+       "GraphicLayerRecommendedDisplayCIELabValue"
+      ],
+      "colour_retrieved": [
+       "TextColorCIELabValue",
+       "PatternOnColorCIELabValue",
+       "GraphicLayerRecommendedDisplayCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "colour_layer_iod": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [],
+      "top_level_changed": [],
+      "colour_sent": [
+       "GraphicLayerRecommendedDisplayCIELabValue"
+      ],
+      "colour_retrieved": [
+       "GraphicLayerRecommendedDisplayCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "colour_line_iod": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [],
+      "top_level_changed": [],
+      "colour_sent": [
+       "PatternOnColorCIELabValue"
+      ],
+      "colour_retrieved": [
+       "PatternOnColorCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "colour_none": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [],
+      "top_level_changed": [],
+      "colour_sent": [],
+      "colour_retrieved": [],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "colour_text_outofiod": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [],
+      "top_level_changed": [],
+      "colour_sent": [
+       "TextColorCIELabValue"
+      ],
+      "colour_retrieved": [
+       "TextColorCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "conformant_meddreamid": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [],
+      "top_level_changed": [],
+      "colour_sent": [
+       "PatternOnColorCIELabValue"
+      ],
+      "colour_retrieved": [
+       "PatternOnColorCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "conformant_trueid": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [],
+      "top_level_changed": [],
+      "colour_sent": [
+       "PatternOnColorCIELabValue"
+      ],
+      "colour_retrieved": [
+       "PatternOnColorCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    }
+   },
+   "summary": {
+    "cstore_success": 9,
+    "qido_found": 9,
+    "wado_ok": 9,
+    "colour_intact": 9,
+    "of": 9
+   }
+  },
+  "dcm4chee": {
+   "config": {
+    "aet": "DCM4CHEE",
+    "port": 11212,
+    "rs": "http://localhost:8180/dcm4chee-arc/aets/DCM4CHEE/rs"
+   },
+   "ct_store": {
+    "sent": 512,
+    "success": 512,
+    "responses": [
+     "Success"
+    ]
+   },
+   "presentation_states": {
+    "asis_meddreamid": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [
+       "00100021",
+       "00120062",
+       "00120063"
+      ],
+      "top_level_changed": [],
+      "colour_sent": [
+       "TextColorCIELabValue"
+      ],
+      "colour_retrieved": [
+       "TextColorCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "asis_trueid": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [
+       "00100021",
+       "00120062",
+       "00120063"
+      ],
+      "top_level_changed": [],
+      "colour_sent": [
+       "TextColorCIELabValue"
+      ],
+      "colour_retrieved": [
+       "TextColorCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "colour_all": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [
+       "00100021",
+       "00120062",
+       "00120063"
+      ],
+      "top_level_changed": [],
+      "colour_sent": [
+       "TextColorCIELabValue",
+       "PatternOnColorCIELabValue",
+       "GraphicLayerRecommendedDisplayCIELabValue"
+      ],
+      "colour_retrieved": [
+       "TextColorCIELabValue",
+       "PatternOnColorCIELabValue",
+       "GraphicLayerRecommendedDisplayCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "colour_layer_iod": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [
+       "00100021",
+       "00120062",
+       "00120063"
+      ],
+      "top_level_changed": [],
+      "colour_sent": [
+       "GraphicLayerRecommendedDisplayCIELabValue"
+      ],
+      "colour_retrieved": [
+       "GraphicLayerRecommendedDisplayCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "colour_line_iod": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [
+       "00100021",
+       "00120062",
+       "00120063"
+      ],
+      "top_level_changed": [],
+      "colour_sent": [
+       "PatternOnColorCIELabValue"
+      ],
+      "colour_retrieved": [
+       "PatternOnColorCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "colour_none": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [
+       "00100021",
+       "00120062",
+       "00120063"
+      ],
+      "top_level_changed": [],
+      "colour_sent": [],
+      "colour_retrieved": [],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "colour_text_outofiod": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [
+       "00100021",
+       "00120062",
+       "00120063"
+      ],
+      "top_level_changed": [],
+      "colour_sent": [
+       "TextColorCIELabValue"
+      ],
+      "colour_retrieved": [
+       "TextColorCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "conformant_meddreamid": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [
+       "00100021",
+       "00120062",
+       "00120063"
+      ],
+      "top_level_changed": [],
+      "colour_sent": [
+       "PatternOnColorCIELabValue"
+      ],
+      "colour_retrieved": [
+       "PatternOnColorCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    },
+    "conformant_trueid": {
+     "cstore": {
+      "exit": 0,
+      "response": "Success",
+      "warnings": [],
+      "association_accepted": true
+     },
+     "dicomweb": {
+      "qido_status": 200,
+      "qido_found": true,
+      "wado_status": 200,
+      "wado_parts": 1,
+      "top_level_removed": [],
+      "top_level_added": [
+       "00100021",
+       "00120062",
+       "00120063"
+      ],
+      "top_level_changed": [],
+      "colour_sent": [
+       "PatternOnColorCIELabValue"
+      ],
+      "colour_retrieved": [
+       "PatternOnColorCIELabValue"
+      ],
+      "colour_intact": true,
+      "nested_tags_lost": []
+     }
+    }
+   },
+   "summary": {
+    "cstore_success": 9,
+    "qido_found": 9,
+    "wado_ok": 9,
+    "colour_intact": 9,
+    "of": 9
+   }
+  }
+ },
+ "note": "Orthanc re-run after the first attempt's DICOMweb root was mangled by the shell; dcm4chee from the first run."
+}

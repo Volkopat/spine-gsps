@@ -173,8 +173,8 @@ IDENTITY = {
 }
 
 # PN is caret delimited. A bare single component is the retired form and both
-# highdicom and dciodvfy flag it, which is exactly the warning the 38 shipped
-# GSPS objects carry. A trailing caret disambiguates a deliberate one component
+# highdicom and dciodvfy flag it, which is exactly the warning the deployed
+# emitter's objects carry. A trailing caret disambiguates a deliberate one component
 # name, so we use it everywhere we write a PN.
 CREATOR_PN = "spinelab^"
 

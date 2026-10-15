@@ -201,7 +201,7 @@ python -m spinelab.gsps.validate <path>\runs\seg_demo\canonical --json results/s
 | out-of-IOD attributes | **none** |
 | other diagnostics | 2/6, the `99SPINELAB` defined term on the two cases carrying L6 |
 
-For comparison, the 38 shipped GSPS objects score 7 errors and 6 out-of-IOD
+For comparison, the deployed emitter's objects score 7 errors and 6 out-of-IOD
 attributes each, and the conformant GSPS variants score 1 error and 0 out-of-IOD.
 **The SEG objects score 0 and 0.**
 
@@ -261,18 +261,17 @@ source voxel centre.
 ### Verified negative: an unrelated series is refused, not silently mislabelled
 
 Pointing the writer at a geometrically unrelated series is the failure mode that
-would produce a plausible looking but wrong SEG. Tested against the clinical
-sagittal CT (40 instances, 1027x512, oblique, `ImageOrientationPatient`
-`[-0.1099, 0.9939, 0.0, -0.0186, -0.0021, -0.9998]`, a different patient):
+would produce a plausible looking but wrong SEG. Tested on public data, the mask of
+`sub-gl003_dir-ax` pointed at the sagittal series of `sub-verse505` (40 instances,
+512x600, a different subject), re-run on 2026-10-15 to replace a test that had used a
+clinical series (ledger L0):
 
 ```
-mask voxels landing on the clinical grid: 0
+mask voxels landing on the unrelated grid: 0
 correctly refused: ValueError: label volume is empty on this series grid
 ```
 
-Zero voxels land and `build_segmentation` refuses by name. No SEG was written and
-none was kept. This was the only use made of clinical data in this task, and it
-produced no output object.
+Zero voxels land and `build_segmentation` refuses by name. No SEG was written.
 
 `resample_labels_to_series` also now verifies that every instance shares frame 0's
 Rows, Columns, PixelSpacing and ImageOrientationPatient, and raises naming the
@@ -360,11 +359,10 @@ the source series values.
 ## 9. Corrections and caveats
 
 1. **The demo used public VerSe data, not clinical data.** Every SEG object
-   reported here references a CT series derived from the public VerSe volumes. The
-   clinical series under
-   `$BASELINE\test_api\refined_gsps_1\pat_XXXX\SAGITTAL_BONE_SN007` was read only
-   for the geometry probe and the refusal test in section 6, and produced no
-   output object. Nothing in this file needs redoing on public data. It already
+   reported here references a CT series derived from the public VerSe volumes. An
+   earlier geometry probe and refusal test read a clinical series and produced no
+   output object; both are withdrawn (ledger L0), and the refusal test in section 6
+   is re-run on public data. Nothing in this file needs redoing on public data. It already
    is public data.
 2. **The demo was re-pointed at the canonical public series and this file reports
    the re-measured numbers.** An earlier pass used
@@ -403,7 +401,7 @@ the source series values.
 5. **Person Name.** Writing a bare `spinelab` into a PN draws
    `Warning - Value dubious for this VR - ... Retired Person Name form` from
    dciodvfy and a matching warning from highdicom. This is the identical warning
-   all 38 shipped GSPS objects carry for `PatientName = ANON_PAT_XXXX`. Fixed here
+   the deployed emitter's objects carry for their single-component `PatientName`. Fixed here
    by a trailing caret, which is the documented way to declare a deliberate one
    component name. The same one line fix would clear that warning from the GSPS
    side.

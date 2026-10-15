@@ -18,11 +18,11 @@ There are TWO deployed implementations, and they are not the same algorithm.
 Both were read line by line before anything here was written.
 
 A. `$BASELINE\\test_api\\generate_gsps_4.py`, lines 304 to 413 and 838 to 846.
-   This is the one that wrote the 38 GSPS objects on disk.
+   This is the emitter that writes the presentation states.
 
 B. `$BASELINE\\test_api\\debug\\refinement\\generate_refined_labels_10.py`,
    lines 155 to 190 and 326 to 465. This is the label refinement pass. It is
-   where the z score of 651.46 recorded in CLAUDE.md comes from, NOT from (A).
+   where unbounded z scores come from, NOT from (A).
    See the correction at the end of this section.
 
 What is fitted
@@ -124,48 +124,32 @@ The penalty and the colour
     where `is_penalized` is set only inside `if vertebra_name in
     penalized_confidences`. Red means "the multiplier fired", nothing else.
 
-CORRECTION to CLAUDE.md finding 5, established here by reading both files and
-both logs. CLAUDE.md says "No guard against std_dist approaching zero: max
-logged z is 651.46". Two parts of that need fixing:
+CORRECTION to an earlier note, established here by reading both files. The note
+said the deployed check had no guard against std_dist approaching zero, and that
+this explained extreme logged z values. Two parts of that need fixing:
 
-  1. `generate_gsps_4.py` DOES floor std_dist at 0.1 px (line 400). Its own log,
-     `$BASELINE\\test_api\\gsps_generation.log`, has 130 penalty lines and the
-     largest z in it is 3.90, which is consistent with the algebraic maximum of
-     a ddof=0 z score, sqrt(n-1), which is 4.12 for n = 18. Derivation: the
-     ddof=1 bound is the standard (n-1)/sqrt(n), and s_pop = s_samp *
-     sqrt((n-1)/n), so the ddof=0 bound is (n-1)/sqrt(n) * sqrt(n/(n-1)) =
-     sqrt(n-1). `selftest()` checks it numerically.
-  2. The 651.46 is from `refined_labels_generation.log`, written by
-     `generate_refined_labels_10.py`. That file has a different bug, and it is
-     a worse one. In its small region path it standardises the vertebra's own
-     residual against the residuals of the OTHER vertebrae only
-     (lines 383-394), so the test point is excluded from its own mean and
+  1. `generate_gsps_4.py` DOES floor std_dist at 0.1 px (line 400), and pools
+     every residual of a study including the tested one, so its z obeys the
+     algebraic maximum of a ddof=0 z score, sqrt(n-1), which is 4.12 for n = 18.
+     Derivation: the ddof=1 bound is the standard (n-1)/sqrt(n), and s_pop =
+     s_samp * sqrt((n-1)/n), so the ddof=0 bound is (n-1)/sqrt(n) *
+     sqrt(n/(n-1)) = sqrt(n-1). `selftest()` checks it numerically. Run
+     unmodified on 155 public cases, its log never exceeds a study's bound
+     (`results/rev2_deployed_public.json`, `flag`).
+  2. Extreme values come from `generate_refined_labels_10.py`, which has a
+     different bug, and a worse one. In its small region path it standardises
+     the vertebra's own residual against the residuals of the OTHER vertebrae
+     only (lines 383-394), so the test point is excluded from its own mean and
      standard deviation and the algebraic bound no longer applies. Its guard is
-     `if std_dist > 1e-6`, effectively none. The matching log line is:
-
-        Global spline check T12: dist=81.9px, mean=0.2px, std=0.1px, z-score=651.46
+     `if std_dist > 1e-6`, effectively none, so one displaced point divided by
+     the sub-pixel spread of the others is unbounded.
 
      So the unbounded z is not a missing floor, it is a leave one out
      standardisation set. Both defects are real, they are just in different
      files. `fit_deployed` here reproduces (A), the file that shipped the GSPS.
 
-Other numbers measured from the shipped logs while reading the code, all from
-`$BASELINE\\test_api`:
-
-  - gsps_generation.log: 130 penalty events over 1230 vertebrae summed from the
-    "Extracted confidence for N vertebrae" lines, 10.6 percent. The log covers
-    109 such lines and 71 studies, so it holds more than one run and this ratio
-    is a log tally, not a per study rate. CLAUDE.md's 11.1 percent over the 38
-    shipped studies is the figure to quote.
-  - Per level penalty counts in that log, showing the pattern this module
-    explains: C5 18, T11 22, T2 17, L3 17, C6 12, L1 9, T10 8, T3 7, L2 6,
-    T9 5, T12 4, T1 2, T6 1, T7 1, T8 1, and ZERO for C1, C2, C3, C4, C7, T4,
-    T5, L4, L5, L6.
-  - refined_labels_generation.log, regional path trigger distances, n = 260:
-    min 0.0, p25 1.4, median 1.5, p75 1.6, max 2.0 pixels.
-  - PixelSpacing read from 400 of the shipped DICOM in
-    `test_api/refined_gsps_1`: 0.293 to 0.352 mm, most common 0.293. So a
-    1.5 pixel trigger distance is 0.44 to 0.53 mm.
+Units. The synthetic generator uses in-plane spacings of 0.293, 0.330 and
+0.352 mm, so a 1.5 pixel trigger distance is 0.44 to 0.53 mm.
 
 =============================================================================
 PART 2. WHY IT CANNOT WORK, STATED BEFORE IT IS MEASURED

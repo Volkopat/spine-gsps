@@ -1,6 +1,6 @@
 {
   "title": "spine-gsps: evaluation harness for a deployed DICOM spine-labelling service",
-  "description": "Evaluation harness accompanying the article \"Separating conformance from trustworthiness: an end-to-end audit, and five checks, for an AI result delivered into a clinical archive\". Every number in the article has a row in docs/CLAIMS.md recording its status, the command that produces it, and its source, including twenty-one retired claims.",
+  "description": "Evaluation harness accompanying the article \"Separating conformance from trustworthiness: an audit of the delivery path, and eight checks, for an AI result sent to a clinical archive\". Every number in the article has a row in docs/CLAIMS.md recording its status, the command that produces it, and its source, including twenty-nine retired claims, seven of them withdrawn on peer review and one withdrawing every count from clinical material.",
   "license": "mit",
   "upload_type": "software",
   "creators": [

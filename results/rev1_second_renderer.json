@@ -1,0 +1,105 @@
+{
+ "renderer": "dcm4che dcm2jpg",
+ "version": [
+  "dcm2jpg: 5.34.1"
+ ],
+ "image": "sub-verse502_dir-iso_0217.dcm",
+ "variants": {
+  "asis_meddreamid": {
+   "exit": 0,
+   "written": true,
+   "pixel_sha256_16": "ca3e7054ca85f158",
+   "distinct_grey_levels": 17,
+   "message": "<path>\\runs\\public_dicom_sag\\sub-verse502_dir-iso\\sub-verse502_dir-iso_0217.dcm -> <path>\\runs\\rev1_second_renderer\\asis_meddreamid.png"
+  },
+  "asis_trueid": {
+   "exit": 0,
+   "written": true,
+   "pixel_sha256_16": "ca3e7054ca85f158",
+   "distinct_grey_levels": 17,
+   "message": "<path>\\runs\\public_dicom_sag\\sub-verse502_dir-iso\\sub-verse502_dir-iso_0217.dcm -> <path>\\runs\\rev1_second_renderer\\asis_trueid.png"
+  },
+  "colour_all": {
+   "exit": 0,
+   "written": true,
+   "pixel_sha256_16": "ca3e7054ca85f158",
+   "distinct_grey_levels": 17,
+   "message": "<path>\\runs\\public_dicom_sag\\sub-verse502_dir-iso\\sub-verse502_dir-iso_0217.dcm -> <path>\\runs\\rev1_second_renderer\\colour_all.png"
+  },
+  "colour_layer_iod": {
+   "exit": 0,
+   "written": true,
+   "pixel_sha256_16": "ca3e7054ca85f158",
+   "distinct_grey_levels": 17,
+   "message": "<path>\\runs\\public_dicom_sag\\sub-verse502_dir-iso\\sub-verse502_dir-iso_0217.dcm -> <path>\\runs\\rev1_second_renderer\\colour_layer_iod.png"
+  },
+  "colour_line_iod": {
+   "exit": 0,
+   "written": true,
+   "pixel_sha256_16": "ca3e7054ca85f158",
+   "distinct_grey_levels": 17,
+   "message": "<path>\\runs\\public_dicom_sag\\sub-verse502_dir-iso\\sub-verse502_dir-iso_0217.dcm -> <path>\\runs\\rev1_second_renderer\\colour_line_iod.png"
+  },
+  "colour_none": {
+   "exit": 0,
+   "written": true,
+   "pixel_sha256_16": "ca3e7054ca85f158",
+   "distinct_grey_levels": 17,
+   "message": "<path>\\runs\\public_dicom_sag\\sub-verse502_dir-iso\\sub-verse502_dir-iso_0217.dcm -> <path>\\runs\\rev1_second_renderer\\colour_none.png"
+  },
+  "colour_text_outofiod": {
+   "exit": 0,
+   "written": true,
+   "pixel_sha256_16": "ca3e7054ca85f158",
+   "distinct_grey_levels": 17,
+   "message": "<path>\\runs\\public_dicom_sag\\sub-verse502_dir-iso\\sub-verse502_dir-iso_0217.dcm -> <path>\\runs\\rev1_second_renderer\\colour_text_outofiod.png"
+  },
+  "conformant_meddreamid": {
+   "exit": 0,
+   "written": true,
+   "pixel_sha256_16": "ca3e7054ca85f158",
+   "distinct_grey_levels": 17,
+   "message": "<path>\\runs\\public_dicom_sag\\sub-verse502_dir-iso\\sub-verse502_dir-iso_0217.dcm -> <path>\\runs\\rev1_second_renderer\\conformant_meddreamid.png"
+  },
+  "conformant_trueid": {
+   "exit": 0,
+   "written": true,
+   "pixel_sha256_16": "ca3e7054ca85f158",
+   "distinct_grey_levels": 17,
+   "message": "<path>\\runs\\public_dicom_sag\\sub-verse502_dir-iso\\sub-verse502_dir-iso_0217.dcm -> <path>\\runs\\rev1_second_renderer\\conformant_trueid.png"
+  }
+ },
+ "baseline_no_pstate": {
+  "exit": 0,
+  "written": true,
+  "pixel_sha256_16": "5c10b006ce0e93c9",
+  "distinct_grey_levels": 256,
+  "message": "<path>\\runs\\public_dicom_sag\\sub-verse502_dir-iso\\sub-verse502_dir-iso_0217.dcm -> <path>\\runs\\rev1_second_renderer\\_baseline.png"
+ },
+ "annotation_probe": {
+  "delete": {
+   "exit": 0,
+   "written": true,
+   "pixel_sha256_16": "ca3e7054ca85f158",
+   "distinct_grey_levels": 17,
+   "message": "<path>\\runs\\public_dicom_sag\\sub-verse502_dir-iso\\sub-verse502_dir-iso_0217.dcm -> <path>\\runs\\rev1_second_renderer\\_probe_delete.png",
+   "items_touched": 38
+  },
+  "shift": {
+   "exit": 0,
+   "written": true,
+   "pixel_sha256_16": "ca3e7054ca85f158",
+   "distinct_grey_levels": 17,
+   "message": "<path>\\runs\\public_dicom_sag\\sub-verse502_dir-iso\\sub-verse502_dir-iso_0217.dcm -> <path>\\runs\\rev1_second_renderer\\_probe_shift.png",
+   "items_touched": 38
+  },
+  "unmodified": {
+   "exit": 0,
+   "written": true,
+   "pixel_sha256_16": "ca3e7054ca85f158",
+   "distinct_grey_levels": 17,
+   "message": "<path>\\runs\\public_dicom_sag\\sub-verse502_dir-iso\\sub-verse502_dir-iso_0217.dcm -> <path>\\runs\\rev1_second_renderer\\conformant_trueid.png"
+  }
+ },
+ "draws_annotations": false
+}

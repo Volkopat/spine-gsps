@@ -79,7 +79,7 @@ attributes only, plus the five out-of-IOD text style attributes the deployed
 `GrayscaleSoftcopyPresentationState` and reproduces the measured result from
 `results/gsps_variants.md` independently: the in-IOD colour routes score 0
 out-of-IOD attributes and 1 error, the text route scores exactly the same 6
-out-of-IOD attributes as the 38 shipped objects, and the 1 remaining error is
+out-of-IOD attributes as the deployed emitter's objects, and the 1 remaining error is
 `Laterality`. Nothing in the suite reads `<path>`.
 
 ## What each correction in results/*.md is now guarded by

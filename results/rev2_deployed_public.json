@@ -1,0 +1,3775 @@
+{
+ "work": "runs/rev2_deployed_public",
+ "measured_at": "2026-10-15T00:40:07",
+ "objects": [
+  {
+   "case": "sub-gl003_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-gl016_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-gl045",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-gl146_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-gl153",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-gl240_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-gl247_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-gl279_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-gl352",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-gl380",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-gl479",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-gl492_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse500_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse502_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse504_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse505",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse506_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse507_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse508_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse509_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse510_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse511_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse513",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse514_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse517_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse518_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse519_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse521_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse522",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse524_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse525_dir-sag",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse527_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse529",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse530",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse532_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse534_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse535_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse536_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse537_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse539_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse540_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse541_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse542_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse544_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse545_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse546_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse547",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse549",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse550_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse551_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse552_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse553",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse554",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse555_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse556_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse559",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse563_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse564_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse565_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse569",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse570_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse571",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse573",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse576",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse577_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse578_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse581_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse582_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse584_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse585",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse586_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse587_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse588",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse590_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse591_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse592_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse594_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse596_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse597_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse598",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse599_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse600_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse601",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse602_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse603",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse604_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse606",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse609",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse612",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse613_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse614",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse615",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse616_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse617_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse618",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse619_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse620_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse621",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse626_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse627",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse629_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse631",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse635",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse640",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse641_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse643",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse645",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse648_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse650_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse651_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse703",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse704_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse705",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse707",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse708_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse710_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse712_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse714_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse715",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse716_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse717",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse718_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse750_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse752_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse756_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse760_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse762_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse763",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse764_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse765",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse766_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse767",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse768_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse801_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse802",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse803_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse804_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse805",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse807_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse808_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse809_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse810_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse811_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse815",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse816",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse817",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse818_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse820_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse821",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse823_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse824_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse825_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse826",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse833_dir-ax",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  },
+  {
+   "case": "sub-verse835_dir-iso",
+   "absent": [
+    "FileMetaInformationGroupLength",
+    "FileMetaInformationVersion",
+    "InstanceNumber",
+    "Laterality",
+    "PresentationPixelSpacing",
+    "SeriesNumber",
+    "StudyID"
+   ],
+   "out_of_iod": 6,
+   "dcmpschk_fails": true,
+   "dcmpschk_named": [
+    "(0002,0000) FileMetaInformationGroupLength",
+    "(0002,0001) FileMetaInformationVersion",
+    "presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2"
+   ],
+   "dcmp2pgm": false,
+   "dcm2jpg": true,
+   "dcmp2pgm_plus_instance_number": false,
+   "dcmp2pgm_plus_pixel_spacing": false,
+   "dcmp2pgm_plus_both": true
+  }
+ ],
+ "summary": {
+  "presentation_states": 155,
+  "all_seven_absent": 155,
+  "absent_sets": [
+   "FileMetaInformationGroupLength,FileMetaInformationVersion,InstanceNumber,Laterality,PresentationPixelSpacing,SeriesNumber,StudyID"
+  ],
+  "out_of_iod_six": 155,
+  "dciodvfy_pass": 0,
+  "dcmpschk_fail": 155,
+  "dcmpschk_named_sets": {
+   "(0002,0000) FileMetaInformationGroupLength | (0002,0001) FileMetaInformationVersion | presentation state contains a display area selection SQ item with mode 'TRUE SIZE' but presentationPixelSpacing VM != 2": 155
+  },
+  "dcmp2pgm_renders": 0,
+  "dcm2jpg_renders": 155,
+  "dcmp2pgm_renders_plus_instance_number": 0,
+  "dcmp2pgm_renders_plus_pixel_spacing": 0,
+  "dcmp2pgm_renders_plus_both": 155
+ },
+ "flag": {
+  "studies": 155,
+  "studies_with_a_penalty": 139,
+  "vertebrae_with_confidence": 2215,
+  "penalties": 178,
+  "max_logged_z": 4.33,
+  "max_logged_z_study_n": 22,
+  "max_logged_z_study_bound": 4.5826,
+  "studies_over_their_bound": 0
+ },
+ "archives": {
+  "orthanc": {
+   "cstore": 155,
+   "qido": 155,
+   "wado": 155,
+   "colour_intact": 155,
+   "unaltered": 155,
+   "ref_cstore": 155,
+   "of": 155
+  },
+  "dcm4chee": {
+   "cstore": 155,
+   "qido": 155,
+   "wado": 155,
+   "colour_intact": 155,
+   "unaltered": 155,
+   "ref_cstore": 155,
+   "of": 155
+  }
+ },
+ "archives_carried_over_from": "2026-10-15T00:38:11"
+}

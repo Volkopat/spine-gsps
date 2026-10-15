@@ -1,0 +1,163 @@
+{
+ "dciodvfy": "<path>\\tools\\dicom3tools\\dciodvfy.exe",
+ "dcmtk_bin": "<path>\\tools\\dcmtk\\dcmtk-3.7.0-win64-dynamic\\bin",
+ "variants": {
+  "asis_meddreamid": {
+   "dciodvfy_absent": [
+    "InstanceNumber",
+    "Laterality",
+    "SeriesNumber"
+   ],
+   "dciodvfy_absent_n": 3,
+   "dciodvfy_not_in_iod_distinct": [
+    "0x0070,0x0229 CSS Font Name",
+    "0x0070,0x0231 Text Style Sequence",
+    "0x0070,0x0241 Text Color CIELab Value",
+    "0x0070,0x0242 Horizontal Alignment",
+    "0x0070,0x0243 Vertical Alignment",
+    "0x0070,0x0244 Shadow Style"
+   ],
+   "dciodvfy_not_in_iod_n": 6,
+   "dcmpschk": "fails",
+   "dcmpschk_cause": [
+    "instanceNumber absent or empty in presentation state"
+   ],
+   "dcmp2pgm": "refused",
+   "dcmp2pgm_exit": 10,
+   "dcmp2pgm_cause": [
+    "F: Can't open input file(s)."
+   ]
+  },
+  "asis_trueid": {
+   "dciodvfy_absent": [
+    "InstanceNumber",
+    "Laterality",
+    "SeriesNumber"
+   ],
+   "dciodvfy_absent_n": 3,
+   "dciodvfy_not_in_iod_distinct": [
+    "0x0070,0x0229 CSS Font Name",
+    "0x0070,0x0231 Text Style Sequence",
+    "0x0070,0x0241 Text Color CIELab Value",
+    "0x0070,0x0242 Horizontal Alignment",
+    "0x0070,0x0243 Vertical Alignment",
+    "0x0070,0x0244 Shadow Style"
+   ],
+   "dciodvfy_not_in_iod_n": 6,
+   "dcmpschk": "fails",
+   "dcmpschk_cause": [
+    "instanceNumber absent or empty in presentation state"
+   ],
+   "dcmp2pgm": "refused",
+   "dcmp2pgm_exit": 10,
+   "dcmp2pgm_cause": [
+    "F: Can't open input file(s)."
+   ]
+  },
+  "colour_all": {
+   "dciodvfy_absent": [
+    "Laterality"
+   ],
+   "dciodvfy_absent_n": 1,
+   "dciodvfy_not_in_iod_distinct": [
+    "0x0070,0x0229 CSS Font Name",
+    "0x0070,0x0231 Text Style Sequence",
+    "0x0070,0x0241 Text Color CIELab Value",
+    "0x0070,0x0242 Horizontal Alignment",
+    "0x0070,0x0243 Vertical Alignment",
+    "0x0070,0x0244 Shadow Style"
+   ],
+   "dciodvfy_not_in_iod_n": 6,
+   "dcmpschk": "passes",
+   "dcmpschk_cause": [],
+   "dcmp2pgm": "renders",
+   "dcmp2pgm_exit": 0,
+   "dcmp2pgm_cause": []
+  },
+  "colour_layer_iod": {
+   "dciodvfy_absent": [
+    "Laterality"
+   ],
+   "dciodvfy_absent_n": 1,
+   "dciodvfy_not_in_iod_distinct": [],
+   "dciodvfy_not_in_iod_n": 0,
+   "dcmpschk": "passes",
+   "dcmpschk_cause": [],
+   "dcmp2pgm": "renders",
+   "dcmp2pgm_exit": 0,
+   "dcmp2pgm_cause": []
+  },
+  "colour_line_iod": {
+   "dciodvfy_absent": [
+    "Laterality"
+   ],
+   "dciodvfy_absent_n": 1,
+   "dciodvfy_not_in_iod_distinct": [],
+   "dciodvfy_not_in_iod_n": 0,
+   "dcmpschk": "passes",
+   "dcmpschk_cause": [],
+   "dcmp2pgm": "renders",
+   "dcmp2pgm_exit": 0,
+   "dcmp2pgm_cause": []
+  },
+  "colour_none": {
+   "dciodvfy_absent": [
+    "Laterality"
+   ],
+   "dciodvfy_absent_n": 1,
+   "dciodvfy_not_in_iod_distinct": [],
+   "dciodvfy_not_in_iod_n": 0,
+   "dcmpschk": "passes",
+   "dcmpschk_cause": [],
+   "dcmp2pgm": "renders",
+   "dcmp2pgm_exit": 0,
+   "dcmp2pgm_cause": []
+  },
+  "colour_text_outofiod": {
+   "dciodvfy_absent": [
+    "Laterality"
+   ],
+   "dciodvfy_absent_n": 1,
+   "dciodvfy_not_in_iod_distinct": [
+    "0x0070,0x0229 CSS Font Name",
+    "0x0070,0x0231 Text Style Sequence",
+    "0x0070,0x0241 Text Color CIELab Value",
+    "0x0070,0x0242 Horizontal Alignment",
+    "0x0070,0x0243 Vertical Alignment",
+    "0x0070,0x0244 Shadow Style"
+   ],
+   "dciodvfy_not_in_iod_n": 6,
+   "dcmpschk": "passes",
+   "dcmpschk_cause": [],
+   "dcmp2pgm": "renders",
+   "dcmp2pgm_exit": 0,
+   "dcmp2pgm_cause": []
+  },
+  "conformant_meddreamid": {
+   "dciodvfy_absent": [
+    "Laterality"
+   ],
+   "dciodvfy_absent_n": 1,
+   "dciodvfy_not_in_iod_distinct": [],
+   "dciodvfy_not_in_iod_n": 0,
+   "dcmpschk": "passes",
+   "dcmpschk_cause": [],
+   "dcmp2pgm": "renders",
+   "dcmp2pgm_exit": 0,
+   "dcmp2pgm_cause": []
+  },
+  "conformant_trueid": {
+   "dciodvfy_absent": [
+    "Laterality"
+   ],
+   "dciodvfy_absent_n": 1,
+   "dciodvfy_not_in_iod_distinct": [],
+   "dciodvfy_not_in_iod_n": 0,
+   "dcmpschk": "passes",
+   "dcmpschk_cause": [],
+   "dcmp2pgm": "renders",
+   "dcmp2pgm_exit": 0,
+   "dcmp2pgm_cause": []
+  }
+ }
+}
