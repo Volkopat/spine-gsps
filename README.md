@@ -4,15 +4,18 @@ Evaluation harness for *"Separating conformance from trustworthiness: an audit o
 
 Every number in the article has a row in [`docs/CLAIMS.md`](docs/CLAIMS.md)
 giving its status, the command that produces it, and its source file. That
-ledger also records **twenty-nine claims that were retired**, several of them
-asserted confidently before measurement contradicted them, seven withdrawn when
-peer review of the article found them wrong, and one, every count from clinical
-material, withdrawn so that every result rests on public data. It is the honest
-guide to how this analysis fails.
+ledger also records **thirty claims that were retired**, several of them
+asserted confidently before measurement contradicted them; seven corrected when
+peer review of the article found four of them wrong and three overstated; one,
+every count from clinical material, withdrawn so that every result rests on
+public data; and one, a description of the service as more deployed than it was,
+corrected in a second round of review. It is the honest guide to how this
+analysis fails.
 
 ## What this is
 
-Three measurements on one deployed DICOM service:
+Three measurements on one DICOM service, built for clinical use and deployed
+internally during its development, but never used in patient care:
 
 1. **Conformance and delivery.** The service's own presentation-state emitter,
    run unmodified on 155 public VerSe cases, writes objects that all fail two
@@ -25,7 +28,8 @@ Three measurements on one deployed DICOM service:
    0.581 AUC on matched vertebrae; the rule that shipped carries no information,
    its case-clustered interval containing 0.5. The revision adds the predictions
    the benchmark cannot score, model-agnostic reference checks, permutation nulls
-   within case and level, and the deployed flag's predictive values.
+   within case and level, and the flag's predictive values, scored from the
+   service's own emitter and from a reimplementation, with the two reconciled.
 3. **The geometric consistency check.** Specified as leave-one-out, implemented
    in sample on its normal path, so the spline absorbs the displacement it
    exists to detect; and the specified leave-one-out residual does not repair it.
@@ -46,6 +50,7 @@ python scripts/rev1_nulls.py                 # nulls within case and level, held
 python scripts/rev1_synthetic.py             # ROC and PR for both estimators
 python scripts/rev1_archives.py ...          # two archives, see scripts/second_archive
 python scripts/rev1_second_renderer.py ...   # dcm4che dcm2jpg
+python scripts/rev3_emitter_flag.py --work <run>  # the emitter's own flag vs ground truth
 python scripts/make_figures.py                  # every figure, from results/*.json
 ```
 
@@ -61,7 +66,8 @@ Vertebral identification is scored by the VerSe organisers' own
 ## What is not here, and why
 
 - **The clinical material.** Earlier versions of the article reported counts
-  from presentation states the service delivered on clinical examinations. The
+  from presentation states the service produced on clinical examinations during
+  its development. The
   revised article withdraws every one of those counts and rests every result on
   public data: the container findings are reproduced by running the service's own
   emitter, unmodified, on 155 public VerSe cases (`scripts/rev2_deployed_on_public.py`,
@@ -70,8 +76,10 @@ Vertebral identification is scored by the VerSe organisers' own
   records over them are not here. Write-ups from earlier versions that report on
   them remain in `results/` as the historical audit record and are not cited by the
   revised article.
-- **The deployed emitter.** The service's own presentation-state emitter is not
-  redistributed. Its SHA-256 is recorded in the run's provenance, and the 155
+- **The service's emitter.** The service's own presentation-state emitter belongs
+  to the company that developed the service and is not redistributed;
+  `src/spinelab/outliers/spline.py` reimplements its flag rule. Its SHA-256 is
+  recorded in the run's provenance, and the 155
   presentation states it wrote on public data are attached to this release as an
   archive, under the licence of the data they derive from.
 - **The model checkpoints.** They are the openly released upstream TotalSpineSeg

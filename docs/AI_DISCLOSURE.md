@@ -73,7 +73,7 @@ reader encounters it before the results.
 > organisers' own code, vendored rather than reimplemented. No metric in this paper is
 > computed by code the tool wrote for the purpose of computing that metric.
 >
-> Second, a regression suite of 331 tests encodes the project's factual constraints,
+> Second, a regression suite of 343 tests encodes the project's factual constraints,
 > including that the softmax channel table agrees with the model checkpoints' own
 > label definition. That suite detected two defects in tool-written code that had
 > already been committed: an ordinal table that assigned two adjacent vertebrae to the
